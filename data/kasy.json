@@ -1,48 +1,53 @@
 {
  "schemat": 1,
- "wersja": "bcccb64317f705e6",
- "wygenerowano": "2026-10-22T07:50:39+00:00",
- "liczba": 345,
+ "wersja": "c665903397156a6a",
+ "wygenerowano": "2026-10-22T08:14:53+00:00",
+ "liczba": 428,
  "zrodla": {
   "polregio": {
    "ok": true,
    "liczba": 106,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
    "liczba": 139,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-10-22T07:50:39+00:00"
+   "pobrano": "2026-10-22T08:14:53+00:00"
+  },
+  "pkp_intercity": {
+   "ok": true,
+   "liczba": 83,
+   "pobrano": "2026-10-22T08:14:53+00:00"
   }
  },
  "swieta": [
@@ -4701,11 +4706,7 @@
       "05:30-21:00",
       "08:00-19:30"
      ],
-     "przerwy": [
-      "10:05-10:20",
-      "13:00-13:30",
-      "16:35-16:50"
-     ]
+     "przerwy": []
     },
     "sob": {
      "godziny": [
@@ -4713,11 +4714,7 @@
       "05:30-21:00",
       "08:00-19:30"
      ],
-     "przerwy": [
-      "10:05-10:20",
-      "13:00-13:30",
-      "16:35-16:50"
-     ]
+     "przerwy": []
     },
     "nd_sw": {
      "godziny": [
@@ -4725,11 +4722,7 @@
       "05:30-21:00",
       "08:00-19:30"
      ],
-     "przerwy": [
-      "10:05-10:20",
-      "13:00-13:30",
-      "16:35-16:50"
-     ]
+     "przerwy": []
     }
    },
    "wyjatki": [],
@@ -4737,7 +4730,7 @@
     "Plac Oddziałów Młodzieży Powstańczej - Czynne",
     "Dworzec Główny - Czynne",
     "Centrum Obsługi Pasażera na Dworcu Głównym - Czynne",
-    "wyłącznie dla Placu Oddziałów Młodzieży Powstańczej"
+    "Przerwy wyłącznie dla Placu Oddziałów Młodzieży Powstańczej\n10:05 - 10:20\n13:00 - 13:30\n16:35 - 16:50"
    ],
    "pewne": true,
    "surowe": "Plac Oddziałów Młodzieży Powstańczej - Czynne 7 dni w tygodniu\n05:30 - 21:00\nDworzec Główny - Czynne 7 dni w tygodniu\n05:15 - 21:30\nCentrum Obsługi Pasażera na Dworcu Głównym - Czynne 7 dni w tygodniu\n08:00 - 19:30\nPrzerwy: Uwaga! Przerwy wyłącznie dla Placu Oddziałów Młodzieży Powstańczej\n10:05 - 10:20\n13:00 - 13:30\n16:35 - 16:50",
@@ -5961,6 +5954,7 @@
    },
    "wyjatki": [],
    "uwagi": [
+    "Święta: nieczynne",
     "22.10. w godzinach 10:00-14:00 nieczynne"
    ],
    "pewne": true,
@@ -6042,18 +6036,18 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:30-14:00",
       "06:30-17:50"
      ],
      "przerwy": [
       "08:55-09:05",
-      "08:55-09:15",
       "14:20-14:40"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: 06:30-14:00"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n6:30-17:50\nprzerwy:\n8:55-9:05\n14:20-14:40\nSoboty\n6:30-17:50\nprzerwy:\n8:55-9:05\n14:20-14:40\nNiedziele i święta\n6:30-17:50\nprzerwy:\n8:55- 9:05\n14:20-14:40\nświęta:\n6:30-14:00\nprzerwy:\n8:55-9:15\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6134,20 +6128,19 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:00-21:30",
-      "07:40-19:00"
+      "06:00-21:30"
      ],
      "przerwy": [
       "10:00-10:20",
-      "11:40-11:50",
       "13:30-14:00",
-      "15:50-16:10",
       "17:20-17:40"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: 07:40-19:00"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n5:40-21:10\nprzerwy:\n10:00-10:20\n13:10-13:40\n17:20-17:40\nSoboty\n6:00-21:30\nprzerwy:\n10:00-10:20\n13:30-14:00\n17:20-17:40\nNiedziele i święta\n6:00-21:30\nprzerwy:\n10:00-10:20\n13:30-14:00\n17:20-17:40\nświęta:\n7:40-19:00\nprzerwy:\n11:40-11:50\n15:50-16:10\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6191,7 +6184,8 @@
    "uwagi": [
     "sprzedaż na 30 min. przed odjazdem pociągu",
     "sprzedaż na 30 min. przed odjazdem pociągu",
-    "sprzedaż na 30 min. przed odjazdem pociągu"
+    "sprzedaż na 30 min. przed odjazdem pociągu",
+    "Święta: nieczynne"
    ],
    "pewne": true,
    "surowe": "Dni powszednie\n4:50-17:05\nsprzedaż na 30 min. przed odjazdem pociągu\nprzerwa: 10:45-11:45\nSoboty\n6:00-17:05\nsprzedaż na 30 min. przed odjazdem pociągu\nprzerwa: 10:45-11:45\nNiedziele i święta\n6:00-17:05\nsprzedaż na 30 min. przed odjazdem pociągu\nprzerwa: 10:45-11:45\nświęta nieczynne\nUwagi\nbrak",
@@ -6227,18 +6221,18 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:20-13:50",
       "06:20-17:40"
      ],
      "przerwy": [
       "08:30-08:40",
-      "08:30-08:50",
       "12:45-13:05"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: 06:20-13:50"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nSoboty\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nNiedziele i święta\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nświęta:\n6:20-13:50\nprzerwy:\n8:30-8:50\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6345,7 +6339,8 @@
    "uwagi": [
     "sprzedaż na 30 minut przed odjazdem pociągu",
     "sprzedaż na 30 minut przed odjazdem pociągu",
-    "sprzedaż na 30 minut przed odjazdem pociągu"
+    "sprzedaż na 30 minut przed odjazdem pociągu",
+    "Święta: nieczynne"
    ],
    "pewne": true,
    "surowe": "Dni powszednie\n4:45-16:35\nsprzedaż na 30 minut przed odjazdem pociągu\nSoboty\n5:30-16:35\nsprzedaż na 30 minut przed odjazdem pociągu\nNiedziele i święta\n5:30-16:35\nsprzedaż na 30 minut przed odjazdem pociągu\nświęta nieczynne\nUwagi\nbrak",
@@ -6388,7 +6383,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: nieczynne"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n5:15-19:15\nprzerwy:\n11:45-12:45\n17:00-17:30\nSoboty\n5:15-18:00\nprzerwa:\n11:45-12:45\nNiedziele i święta\n5:15-12:00\nprzerwa:\n7:40-08:40\nświęta nieczynne\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6425,19 +6422,19 @@
     },
     "nd_sw": {
      "godziny": [
-      "05:10-20:30",
-      "08:10-19:30"
+      "05:10-20:30"
      ],
      "przerwy": [
       "08:40-09:00",
       "12:40-13:00",
-      "16:35-16:45",
       "17:00-17:20"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: 08:10-19:30"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n5:10-20:30\nprzerwy:\n8:40-9:00\n12:40-13:00\n17:00-17:20\nSoboty\n5:10-20:30\nprzerwy:\n8:40-9:00\n12:40-13:00\n17:00-17:20\nNiedziele i święta\n5:10-20:30\nprzerwy:\n8:40-9:00\n12:40-13:00\n17:00-17:20\nświęta:\n8:10-19:30\nprzerwy:\n12:40-13:00\n16:35-16:45\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6476,7 +6473,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Święta: nieczynne"
+   ],
    "pewne": true,
    "surowe": "Dni powszednie\n5:30-17:15\nprzerwa:\n15:05-16:10\nSoboty\n5:30-17:15\nprzerwa:\n15:05-16:10\nNiedziele i święta\n7:30-14:10\nświęta nieczynne\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
@@ -6592,6 +6591,3641 @@
    "tryb": "auto"
   },
   {
+   "id": "pkp_intercity:biala-podlaska",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Biała Podlaska",
+   "miejscowosc": "Biała Podlaska",
+   "adres": "21-500 Biała Podlaska, ul. Stacyjna 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:30-20:00"
+     ],
+     "przerwy": [
+      "11:00-11:40",
+      "15:45-16:00",
+      "19:00-19:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:30-20:00"
+     ],
+     "przerwy": [
+      "11:00-11:40",
+      "15:45-16:00",
+      "19:00-19:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-20:00"
+     ],
+     "przerwy": [
+      "11:00-11:40",
+      "15:45-16:00",
+      "19:00-19:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:30-20:00\nprzerwy: 11:00-11:40, 15:45-16:00, 19:00-19:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:bialystok",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Białystok",
+   "miejscowosc": "Białystok",
+   "adres": "15-701 Białystok, Kolejowa 11",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:45-21:15"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:45-21:15"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:45-21:15"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:45-21:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:bielsko-biala-glowna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Bielsko-Biała Główna",
+   "miejscowosc": "Bielsko-Biała",
+   "adres": "43-300 Bielsko-Biała, Warszawska 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:25-19:30"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:25-19:30"
+     ],
+     "przerwy": [
+      "10:15-10:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:00-19:30"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "01.10.2026 r. czynne 07:10-18:40 przerwy: 10:00-10:15, 13:45-14:00"
+   ],
+   "pewne": true,
+   "surowe": "pn-pt 06:25-19:30\nsb 06:25-19:30 przerwa: 10:15-10:30\nnd 09:00-19:30\nUwaga,\n01.10.2026 r. czynne 07:10-18:40 przerwy: 10:00-10:15, 13:45-14:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:bochnia",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Bochnia",
+   "miejscowosc": "Bochnia",
+   "adres": "32-700 Bochnia, ul. Poniatowskiego 29",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:45-17:15"
+     ],
+     "przerwy": [
+      "09:20-09:35",
+      "13:20-13:35"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:45-17:15"
+     ],
+     "przerwy": [
+      "09:20-09:35",
+      "13:20-13:35"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:45-17:15"
+     ],
+     "przerwy": [
+      "09:20-09:35",
+      "13:20-13:35"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:45-17:15 przerwy: 09:20-09:35, 13:20-13:35",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:bydgoszcz-glowna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Bydgoszcz Główna",
+   "miejscowosc": "Bydgoszcz",
+   "adres": "85-059 Bydgoszcz, Zygmunta Augusta 7",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:50-21:20",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:czestochowa",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Częstochowa",
+   "miejscowosc": "Częstochowa",
+   "adres": "42-200 Częstochowa, Al. Wolności 21",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:40-20:10"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:40-20:10"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:40-20:10"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "30.09.2026 r. czynne 10:00-18:10 przerwa: 13:45-14:15"
+   ],
+   "pewne": true,
+   "surowe": "06:40-20:10\nUwaga,\n30.09.2026 r. czynne 10:00-18:10 przerwa: 13:45-14:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:czestochowa-stradom",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Częstochowa Stradom",
+   "miejscowosc": "Częstochowa",
+   "adres": "42-217 Częstochowa, ul. Pułaskiego 100",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:15-16:45"
+     ],
+     "przerwy": [
+      "10:30-10:45",
+      "14:15-14:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:15-16:45"
+     ],
+     "przerwy": [
+      "10:30-10:45",
+      "14:15-14:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-14:45"
+     ],
+     "przerwy": [
+      "10:30-11:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 07:15-16:45 przerwy: 10:30-10:45, 14:15-14:30\nnd 07:15-14:45 przerwa: 10:30-11:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:debica",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Dębica",
+   "miejscowosc": "Dębica",
+   "adres": "39-200 Dębica, ul. Głowackiego 36",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "11:45-12:00",
+      "13:20-13:50",
+      "15:50-16:05",
+      "17:50-18:05"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "11:45-12:00",
+      "13:20-13:50",
+      "15:50-16:05",
+      "17:50-18:05"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "11:45-12:00",
+      "13:20-13:50",
+      "15:50-16:05",
+      "17:50-18:05"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "14.10.2026 r. czynne 05:50-17:20 przerwy: 08:45-09:00, 13:20-13:35"
+   ],
+   "pewne": true,
+   "surowe": "05:50-21:20\nprzerwy: 08:45-09:00, 11:45-12:00, 13:20-13:50, 15:50-16:05, 17:50-18:05\nUwaga,\n14.10.2026 r. czynne 05:50-17:20 przerwy: 08:45-09:00, 13:20-13:35",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:dzialdowo",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Działdowo",
+   "miejscowosc": "Działdowo",
+   "adres": "13-201 Działdowo, Marii Curie Skłodowskiej 39",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:20-15:30"
+     ],
+     "przerwy": [
+      "13:40-14:10"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:20-15:30"
+     ],
+     "przerwy": [
+      "13:40-14:10"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-15:30"
+     ],
+     "przerwy": [
+      "13:40-14:10"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 06:20-15:30, nd 07:15-15:30\nprzerwa codziennie: 13:40-14:10",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:elblag",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Elbląg",
+   "miejscowosc": "Elbląg",
+   "adres": "82-300 Elbląg, Plac Dworcowy 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "14:45-15:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "14:45-15:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "14:45-15:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:10-16:40\nprzerwy: 09:00-09:15, 14:45-15:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:etravel-services-sp-z-o-o",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_podrozy",
+   "nazwa": "eTravel Services sp. z o.o",
+   "miejscowosc": "Warszawa",
+   "adres": "02-305 Warszawa, Aleje Jerozolimskie 96",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:00-18:00"
+     ],
+     "przerwy": []
+    },
+    "sob": null,
+    "nd_sw": null
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "; (obsługa tylko klientów korporacyjnych)"
+   ],
+   "pewne": false,
+   "surowe": "pn-pt 09:00-18:00; (obsługa tylko klientów korporacyjnych);",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "Biuro podróży",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gdansk-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Gdańsk Główny",
+   "miejscowosc": "Gdańsk",
+   "adres": "80-895 Gdańsk, ul. Podwale Grodzkie 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:30-20:15"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:30-20:15"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-20:15"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:30-20:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gdansk-glowny-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Gdańsk Główny, Centrum Obsługi Klienta",
+   "miejscowosc": "Gdańsk",
+   "adres": "80-895 Gdańsk, ul. Podwale Grodzkie 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:45-20:15"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "08:45-20:15"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:45-20:15"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:45-20:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gdansk-oliwa",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Gdańsk Oliwa",
+   "miejscowosc": "Gdańsk",
+   "adres": "80-320 Gdańsk, Plac Dworcowy 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:00-17:30"
+     ],
+     "przerwy": [
+      "11:00-11:15",
+      "13:45-14:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:00-17:30"
+     ],
+     "przerwy": [
+      "11:00-11:15",
+      "13:45-14:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:15-16:45"
+     ],
+     "przerwy": [
+      "11:50-12:05",
+      "13:45-14:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 08:00-17:30 przerwy: 11:00-11:15, 13:45-14:00\nnd 09:15-16:45 przerwy: 11:50-12:05, 13:45-14:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gdansk-wrzeszcz",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Gdańsk Wrzeszcz",
+   "miejscowosc": "Gdańsk",
+   "adres": "80-243 Gdańsk, Dmowskiego 1a",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:05-18:35"
+     ],
+     "przerwy": [
+      "10:25-10:40",
+      "14:25-14:40"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:05-18:35"
+     ],
+     "przerwy": [
+      "10:25-10:40",
+      "14:25-14:40"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:05-18:35"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "15:00-15:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 07:05-18:35 przerwy: 10:25-10:40, 14:25-14:40\nnd 09:05-18:35 przerwy: 12:00-12:15, 15:00-15:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gdynia-glowna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Gdynia Główna",
+   "miejscowosc": "Gdynia",
+   "adres": "81-324 Gdynia, Pl. Konstytucji 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:15-20:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:gliwice",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Gliwice",
+   "miejscowosc": "Gliwice",
+   "adres": "44-100 Gliwice, Bohaterów Getta Warszawskiego 12",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-21:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:10-21:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-21:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "30.09.2026 r. przerwy: 10:00-10:30, 13:40-14:10, 17:10-17:40"
+   ],
+   "pewne": true,
+   "surowe": "06:10-21:40\nUwaga,\n30.09.2026 r. przerwy: 10:00-10:30, 13:40-14:10, 17:10-17:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:glogow",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Głogów",
+   "miejscowosc": "Głogów",
+   "adres": "67-200 Głogów, Plac Tysiąclecia 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:40-17:00"
+     ],
+     "przerwy": [
+      "09:55-10:10",
+      "13:55-14:10"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:00-17:20"
+     ],
+     "przerwy": [
+      "11:45-12:00",
+      "14:20-15:05"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:00-17:20"
+     ],
+     "przerwy": [
+      "11:45-12:00",
+      "14:20-15:05"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "sprzedaż biletów międzynarodowych wyłącznie na pociągi bezpośrednie z postojem na stacji Głogów"
+   ],
+   "pewne": true,
+   "surowe": "pn-pt 05:40-17:00 przerwy: 09:55-10:10, 13:55-14:10\nsb-nd i święta 08:00-17:20 przerwy: 11:45-12:00, 14:20-15:05",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:ilawa",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Iława",
+   "miejscowosc": "Iława",
+   "adres": "14-200 Iława, Dworcowa 3",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:30-09:45",
+      "13:30-13:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:30-17:00"
+     ],
+     "przerwy": [
+      "09:30-09:45",
+      "13:30-13:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:30-17:00"
+     ],
+     "przerwy": [
+      "09:30-09:45",
+      "13:30-13:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 06:10-17:40 przerwy: 09:30-09:45,13:30-13:45\nsb-nd i święta 07:30-17:00 przerwy: 09:30-09:45,13:30-13:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:jaroslaw",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Jarosław",
+   "miejscowosc": "Jarosław",
+   "adres": "37-500 Jarosław, ul. Słowackiego 34",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-18:30"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:10-18:30"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-18:30"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "w dniach 19-22.10.2026 r. czynne 06:10-17:40, przerwy: 09:35-09:50, 13:00-13:15\nw dniu 24.10.2026 r. czynne 06:10-16:40, przerwy: 09:35-09:50, 13:00-13:15"
+   ],
+   "pewne": true,
+   "surowe": "06:10-18:30\nUwaga:\nw dniach 19-22.10.2026 r. czynne 06:10-17:40, przerwy: 09:35-09:50, 13:00-13:15\nw dniu 24.10.2026 r. czynne 06:10-16:40, przerwy: 09:35-09:50, 13:00-13:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:jelenia-gora",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Jelenia Góra",
+   "miejscowosc": "Jelenia Góra",
+   "adres": "58-500 Jelenia Góra, ul. 1 Maja 77",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:15-20:00"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "12:30-12:40",
+      "15:45-16:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:15-20:00"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "12:30-12:40",
+      "15:45-16:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:15-20:00"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "12:30-12:40",
+      "15:45-16:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:15-20:00\nprzerwy: 08:45-09:00, 12:30-12:40, 15:45-16:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": false,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:katowice",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Katowice",
+   "miejscowosc": "Katowice",
+   "adres": "40-098 Katowice, Plac Marii i Lecha Kaczyńskich 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-00:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-00:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-00:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo\nprzerwa: 00:30-00:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:katowice-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Katowice, Centrum Obsługi Klienta",
+   "miejscowosc": "Katowice",
+   "adres": "40-098 Katowice, Plac Marii i Lecha Kaczyńskich 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:00-19:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:kielce",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Kielce",
+   "miejscowosc": "Kielce",
+   "adres": "25-506 Kielce, Plac Niepodległości 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": [
+      "16:45-17:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:15-19:40\nw niedziele przerwa: 16:45-17:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:kolobrzeg",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Kołobrzeg",
+   "miejscowosc": "Kołobrzeg",
+   "adres": "78-100 Kołobrzeg, Al. Kolejowa 3",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:15-22:00"
+     ],
+     "przerwy": [
+      "19:30-19:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:15-22:00"
+     ],
+     "przerwy": [
+      "19:30-19:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:15-22:00"
+     ],
+     "przerwy": [
+      "19:30-19:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:15-22:00\nprzerwa: 19:30-19:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:konin",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Konin",
+   "miejscowosc": "Konin",
+   "adres": "62-510 Konin, Kolejowa 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:40-17:10"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "14:45-15:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:40-17:10"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "14:45-15:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:40-17:10"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "14:45-15:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:40-17:10\nprzerwy: 12:00-12:15, 14:45-15:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:krakow-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Kraków Główny",
+   "miejscowosc": "Kraków",
+   "adres": "31-154 Kraków, ul. Pawia 5A",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:krakow-glowny-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Kraków Główny – Centrum Obsługi Klienta",
+   "miejscowosc": "Kraków",
+   "adres": "31-154 Kraków, ul. Pawia 5a",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "Centrum Obsługi Klienta"
+   ],
+   "pewne": true,
+   "surowe": "08:30-20:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:krakow-plaszow",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Kraków Płaszów",
+   "miejscowosc": "Kraków",
+   "adres": "30-902 Kraków, Plac Braci Dudzińskich 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:15-16:45"
+     ],
+     "przerwy": [
+      "09:45-10:00",
+      "13:00-13:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:15-16:45"
+     ],
+     "przerwy": [
+      "09:45-10:00",
+      "13:00-13:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-16:45"
+     ],
+     "przerwy": [
+      "09:45-10:00",
+      "13:00-13:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:15-16:45 przerwy: 09:45-10:00, 13:00-13:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:kutno",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Kutno",
+   "miejscowosc": "Kutno",
+   "adres": "99-310 Kutno, 3 Maja 5",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "08:00-08:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "08:00-08:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "08:00-08:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "w dmiu 14.10.2026 w godzinach: 10 :00- 12:00 kasa nieczynna"
+   ],
+   "pewne": true,
+   "surowe": "05:30-21:00\nprzerwa: 08:00-08:15\nUwaga:\nw dmiu 14.10.2026 w godzinach: 10 :00- 12:00 kasa nieczynna",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lancut",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Łańcut",
+   "miejscowosc": "Łańcut",
+   "adres": "37-100 Łańcut, ul. Kolejowa 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:00-20:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:00-20:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:00-20:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:00-20:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lebork",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Lębork",
+   "miejscowosc": "Lębork",
+   "adres": "84-300 Lębork, Dworcowa 8a",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:30-15:30"
+     ],
+     "przerwy": [
+      "10:40-11:05"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:30-15:30"
+     ],
+     "przerwy": [
+      "10:40-11:05"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:30-15:30"
+     ],
+     "przerwy": [
+      "10:40-11:05"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:30-15:30\nprzerwa: 10:40-11:05",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:legnica",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Legnica",
+   "miejscowosc": "Legnica",
+   "adres": "59-220 Legnica, ul. Dworcowa 5",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:20-21:10"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "12:40-13:10",
+      "16:40-16:55",
+      "19:00-19:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:20-21:10"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "12:40-13:10",
+      "16:40-16:55",
+      "19:00-19:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:20-21:10"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "12:40-13:10",
+      "16:40-16:55",
+      "19:00-19:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:20-21:10\nprzerwy: 08:55-09:10, 12:40-13:10, 16:40-16:55, 19:00-19:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:leszno",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Leszno",
+   "miejscowosc": "Leszno",
+   "adres": "64-100 Leszno, Dworcowa 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:15-09:30",
+      "14:15-14:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:15-09:30",
+      "14:15-14:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:10-16:40"
+     ],
+     "przerwy": [
+      "09:15-09:30",
+      "14:15-14:30"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:10-16:40\nprzerwy: 09:15-09:30, 14:15-14:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lodz-fabryczna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Łódź Fabryczna",
+   "miejscowosc": "Łódź",
+   "adres": "90-001 Łódź, Plac Bronisława Sałacińskiego 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:15-20:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lodz-widzew",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Łódź Widzew",
+   "miejscowosc": "Łódź",
+   "adres": "92-305 Łódź, Służbowa 8",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:10-20:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:10-20:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:10-20:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:10-20:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lowicz",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Łowicz",
+   "miejscowosc": "Łowicz",
+   "adres": "99-400 Łowicz, Dworcowa 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:45-21:15"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "11:45-12:00",
+      "13:15-13:45",
+      "15:45-16:00",
+      "18:00-18:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:45-17:15"
+     ],
+     "przerwy": [
+      "08:45-09:00",
+      "13:45-14:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-18:45"
+     ],
+     "przerwy": [
+      "09:20-09:35",
+      "13:45-14:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 05:45:-21:15 przerwy: 08:45-09:00, 11:45-12:00, 13:15-13:45, 15:45-16:00, 18:00-18:15sb 05:45-17:15 przerwy: 08:45-09:00, 13:45-14:00nd 07:15-18:45 przerwy: 09:20-09:35, 13:45-14:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:lublin-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Lublin Główny",
+   "miejscowosc": "Lublin",
+   "adres": "20-408 Lublin, Plac Dworcowy 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:30-21:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:malbork",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Malbork",
+   "miejscowosc": "Malbork",
+   "adres": "82-200 Malbork, Dworcowa 17",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:55-19:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:55-19:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:55-19:40"
+     ],
+     "przerwy": [
+      "08:40-08:55"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:55-19:40\nw niedziele przerwa: 08:40-08:55",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:olsztyn",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Olsztyn",
+   "miejscowosc": "Olsztyn",
+   "adres": "10-589 Olsztyn, Pl.Konstytucji 3 Maja 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-19:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:10-19:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-19:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:10-19:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:opole-glowne",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Opole Główne",
+   "miejscowosc": "Opole",
+   "adres": "45-075 Opole, ul. Krakowska 48",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-20:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:10-20:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-20:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:10-20:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:piotrkow-trybunalski",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Piotrków Trybunalski",
+   "miejscowosc": "Piotrków Trybunalski",
+   "adres": "97-300 Piotrków Trybunalski, Polskiej Organizacji Wojskowej 5",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:00-21:30"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "11:40-11:55",
+      "13:30-14:00",
+      "16:00-16:15",
+      "18:05-18:20"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:00-21:30"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "11:40-11:55",
+      "13:30-14:00",
+      "16:00-16:15",
+      "18:05-18:20"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:00-17:30"
+     ],
+     "przerwy": [
+      "08:55-09:10",
+      "13:45-14:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 06:00-21:30 przerwy: 08:55-09:10, 11:40-11:55, 13:30-14:00, 16:00-16:15, 18:05-18:20\nnd 06:00-17:30 przerwy: 08:55-09:10, 13:45-14:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:poznan-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Poznań Główny",
+   "miejscowosc": "Poznań",
+   "adres": "61-801 Poznań, ul. Dworcowa 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:poznan-glowny-dworzec-zachodni",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Poznań Główny – Dworzec Zachodni",
+   "miejscowosc": "Poznań",
+   "adres": "60-700 Poznań, ul. Głogowska 15",
+   "dni": {
+    "pn_pt": null,
+    "sob": {
+     "godziny": [
+      "08:15-19:35"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "16:15-16:30"
+     ]
+    },
+    "nd_sw": null
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": false,
+   "surowe": "pn-czw i sb 08:15-19:35 przerwy: 12:00-12:15, 16:15-16:30\npt i nd 08:15-20:35 przerwa: 12:00-12:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:przemysl",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Przemyśl",
+   "miejscowosc": "Przemyśl",
+   "adres": "37-700 Przemyśl, Plac Legionów 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-01:15",
+      "02:30-02:45",
+      "22:30-22:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-01:15",
+      "02:30-02:45",
+      "22:30-22:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-01:15",
+      "02:30-02:45",
+      "22:30-22:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo\nprzerwy: 01:00-01:15, 02:30-02:45, 22:30-22:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:pulawy-miasto",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Puławy Miasto",
+   "miejscowosc": "Puławy",
+   "adres": "24-100 Puławy, ul. Partyzantów 59",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:30-17:00"
+     ],
+     "przerwy": [
+      "13:00-13:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "09:30-17:00"
+     ],
+     "przerwy": [
+      "13:00-13:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:30-17:00"
+     ],
+     "przerwy": [
+      "13:00-13:30"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "09:30-17:00\nprzerwa: 13:00-13:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:radom",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Radom",
+   "miejscowosc": "Radom",
+   "adres": "26-600 Radom, Plac Dworcowy 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:30-19:00"
+     ],
+     "przerwy": [
+      "11:15-11:30",
+      "16:00-16:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:30-19:00"
+     ],
+     "przerwy": [
+      "11:15-11:30",
+      "16:00-16:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:10-18:40"
+     ],
+     "przerwy": [
+      "11:15-11:30",
+      "16:00-16:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "30.09.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15"
+   ],
+   "pewne": true,
+   "surowe": "pn-sb 07:30-19:00\nnd 09:10-18:40\nprzerwy codziennie: 11:15-11:30, 16:00-16:15\nUwaga,\n30.09.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:rybnik",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Rybnik",
+   "miejscowosc": "Rybnik",
+   "adres": "44-200 Rybnik, Dworcowa 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:10-18:40"
+     ],
+     "przerwy": [
+      "11:00-11:15",
+      "14:30-14:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:10-18:40"
+     ],
+     "przerwy": [
+      "11:00-11:15",
+      "14:30-14:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:10-18:40"
+     ],
+     "przerwy": [
+      "11:00-11:15",
+      "14:30-14:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:10-18:40\nprzerwy: 11:00-11:15, 14:30-14:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:rzeszow",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Rzeszów",
+   "miejscowosc": "Rzeszów",
+   "adres": "35-005 Rzeszów, Plac Dworcowy 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "19:10-19:25"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "19:10-19:25"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:50-21:20"
+     ],
+     "przerwy": [
+      "19:10-19:25"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:50-21:20 przerwa: 19:10-19:25",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:skarzysko-kamienna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Skarżysko Kamienna",
+   "miejscowosc": "Skarżysko Kamienna",
+   "adres": "26-110 Skarżysko Kamienna, al. Niepodległości 90",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:15-18:45"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:15-18:45"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-19:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 06:15-18:45\nnd 07:15-19:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:skierniewice",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Skierniewice",
+   "miejscowosc": "Skierniewice",
+   "adres": "96-100 Skierniewice, Dworcowa 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:15-21:15"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:15-21:15"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:15-20:45"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 05:15-21:15\nnd 05:15-20:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:sopot",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Sopot",
+   "miejscowosc": "Sopot",
+   "adres": "81-704 Sopot, Dworcowa 7",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:05-18:35"
+     ],
+     "przerwy": [
+      "09:50-10:05",
+      "13:40-13:55"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:05-18:35"
+     ],
+     "przerwy": [
+      "09:50-10:05",
+      "13:40-13:55"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:05-18:35"
+     ],
+     "przerwy": [
+      "11:05-11:20",
+      "13:40-13:55"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 07:05-18:35 przerwy: 09:50-10:05, 13:40-13:55\nnd 09:05-18:35 przerwy: 11:05-11:20, 13:40-13:55",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:sosnowiec",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Sosnowiec",
+   "miejscowosc": "Sosnowiec",
+   "adres": "41-200 Sosnowiec, ul. 3 Maja 16",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:25-09:40",
+      "14:00-14:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:25-09:40",
+      "14:00-14:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:25-09:40",
+      "14:00-14:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:10-17:40\nprzerwy: 09:25-09:40, 14:00-14:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:swiebodzin",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Świebodzin",
+   "miejscowosc": "Świebodzin",
+   "adres": "66-200 Świebodzin, Plac Dworcowy 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:45-15:45"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "07:15-14:30"
+     ],
+     "przerwy": [
+      "07:45-08:15",
+      "12:00-13:15"
+     ]
+    },
+    "nd_sw": "nieczynna"
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 06:45-15:45, sb 07:15-14:30przerwy: 07:45-08:15, 12:00-13:15 nd i święta nieczynne",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:szczecin-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Szczecin Główny",
+   "miejscowosc": "Szczecin",
+   "adres": "70-206 Szczecin, Kolumba 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:20-20:50"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:20-20:50"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:20-20:50"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:20-20:50",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:szklarska-poreba-gorna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Szklarska Poręba Górna",
+   "miejscowosc": "Szklarska Poręba",
+   "adres": "58-580 Szklarska Poręba, ul. Dworcowa 10",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": [
+      "10:45-11:00",
+      "15:45-16:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": [
+      "10:45-11:00",
+      "15:45-16:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:00-19:30"
+     ],
+     "przerwy": [
+      "10:45-11:00",
+      "15:45-16:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:00-19:30\nprzerwy: 10:45-11:00, 15:45-16:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": false,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tarnow",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Tarnów",
+   "miejscowosc": "Tarnów",
+   "adres": "33-100 Tarnów, Pl. Dworcowy 4",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:15-19:40"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:15-19:40",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tczew",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Tczew",
+   "miejscowosc": "Tczew",
+   "adres": "83-110 Tczew, Pomorska 18",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:55-20:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "05:55-20:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:55-20:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:55-20:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:terespol",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Terespol",
+   "miejscowosc": "Terespol",
+   "adres": "21-550 Terespol, Janowska 23",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "10:50-11:05",
+      "13:00-13:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:10-15:40"
+     ],
+     "przerwy": [
+      "10:50-11:05",
+      "13:00-13:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:25-16:55"
+     ],
+     "przerwy": [
+      "12:45-13:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 06:10-17:40 przerwy: 10:50-11:05, 13:00-13:15\nsb 06:10-15-40 przerwy: 10:50-11:05, 13:00-13:15\nnd 09:25-16:55 przerwa: 12:45-13:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:torun-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Toruń Główny",
+   "miejscowosc": "Toruń",
+   "adres": "87-113 Toruń, Kujawska 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:15-19:50"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "07:15-19:50"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:15-19:50"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:15-19:50",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tychy",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Tychy",
+   "miejscowosc": "Tychy",
+   "adres": "43-100 Tychy, ul. Generała Andersa 19",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:10-19:40"
+     ],
+     "przerwy": [
+      "12:45-13:00",
+      "16:40-16:55"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:10-15:40"
+     ],
+     "przerwy": [
+      "12:30-13:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:10-15:40"
+     ],
+     "przerwy": [
+      "12:30-13:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 08:10-19:40 przerwy: 12:45-13:00, 16:40-16:55\nsb-nd 08:10-15:40 przerwa: 12:30-13:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tymczasowy-kontener-szczecin-dabie",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "tymczasowy - kontener Szczecin Dąbie",
+   "miejscowosc": "Szczecin",
+   "adres": "70-822 Szczecin, Stacyjna 3",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "15:00-15:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "15:00-15:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:10-17:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "15:00-15:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 06:10-17:40\nnd 08:10-17:40\nprzerwy codziennie: 10:40-10:55, 15:00-15:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tymczasowy-w-przejsciu-podziemnym",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "tymczasowy w przejściu podziemnym",
+   "miejscowosc": "Koszalin",
+   "adres": "75-200 Koszalin, Armii Krajowej 3",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:05-17:35"
+     ],
+     "przerwy": [
+      "09:30-09:45",
+      "13:45-14:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:05-17:35"
+     ],
+     "przerwy": [
+      "09:30-09:45",
+      "13:45-14:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:35-17:05"
+     ],
+     "przerwy": [
+      "12:00-12:15",
+      "15:00-15:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 06:05-17:35 przerwy: 09:30-09:45, 13:45-14:00\nnd 09:35-17:05 przerwy: 12:00-12:15, 15:00-15:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:tymczasowy-znajduje-sie-w-sasiadujacym-z-obecnym-dworcem-biurowcu-wejscie-od-strony-ul-m-konopnickiej",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "tymczasowy - znajduje się w sąsiadującym z obecnym dworcem biurowcu - wejście od strony ul. M. Konopnickiej",
+   "miejscowosc": "Słupsk",
+   "adres": "76-200 Słupsk, Kołłątaja 32",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:45-18:15"
+     ],
+     "przerwy": [
+      "10:25-10:40",
+      "14:45-15:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:45-18:15"
+     ],
+     "przerwy": [
+      "10:25-10:40",
+      "14:45-15:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:45-18:15"
+     ],
+     "przerwy": [
+      "10:25-10:40",
+      "14:45-15:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-sb 6:45-18:15\nnd 8:45-18:15\nprzerwy codziennie: 10:25-10:40, 14:45-15:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:ustka",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Ustka",
+   "miejscowosc": "Ustka",
+   "adres": "76-270 Ustka, ul. Dworcowa 21",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:50-13:50"
+     ],
+     "przerwy": [
+      "11:30-11:50"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:50-13:50"
+     ],
+     "przerwy": [
+      "11:30-11:50"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:50-13:50"
+     ],
+     "przerwy": [
+      "11:30-11:50"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "Święta: nieczynne"
+   ],
+   "pewne": true,
+   "surowe": "06:50-13:50 przerwa: 11:30-11:50\nświęta nieczynne",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:walbrzych-miasto",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Wałbrzych Miasto",
+   "miejscowosc": "Wałbrzych",
+   "adres": "58-302 Wałbrzych, ul. Armii Krajowej 26c",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "05:30-20:45"
+     ],
+     "przerwy": [
+      "08:35-08:50",
+      "13:10-13:30",
+      "16:35-16:50"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:30-20:45"
+     ],
+     "przerwy": [
+      "08:35-08:50",
+      "13:10-13:30",
+      "16:35-16:50"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-20:45"
+     ],
+     "przerwy": [
+      "08:35-08:50",
+      "13:10-13:30",
+      "16:35-16:50"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "05:30-20:45\nprzerwy: 08:35-08:50, 13:10-13:30, 16:35-16:50",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": false,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-centralna",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Warszawa Centralna",
+   "miejscowosc": "Warszawa",
+   "adres": "00-024 Warszawa, Al. Jerozolimskie 54",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-centralna-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Warszawa Centralna Centrum Obsługi Klienta",
+   "miejscowosc": "Warszawa",
+   "adres": "00-024 Warszawa, Al. Jerozolimskie 54",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:30-20:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:30-20:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-wschodnia",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Warszawa Wschodnia",
+   "miejscowosc": "Warszawa",
+   "adres": "03-743 Warszawa, ul. Kijowska 20",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo\nprzerwa: 00:00-00:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-zachodnia",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Warszawa Zachodnia",
+   "miejscowosc": "Warszawa",
+   "adres": "02-305 Warszawa, Al. Jerozolimskie 142",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:00-00:30"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo\nprzerwa: 00:00-00:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-zachodnia-2",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Warszawa Zachodnia",
+   "miejscowosc": "Warszawa",
+   "adres": "01-221 Warszawa, ul. Tunelowa 6",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:00-20:00"
+     ],
+     "przerwy": [
+      "11:30-11:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "09:00-19:50"
+     ],
+     "przerwy": [
+      "11:30-11:45",
+      "15:45-16:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:00-19:50"
+     ],
+     "przerwy": [
+      "11:30-11:45",
+      "15:45-16:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "14-15.10.2026 r. czynne 09:00-19:50"
+   ],
+   "pewne": true,
+   "surowe": "pn-pt 09:00-20:00 przerwa: 11:30-11:45\nsb-nd 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00\nUwaga,\n14-15.10.2026 r. czynne 09:00-19:50",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:warszawa-zachodnia-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Warszawa Zachodnia – Centrum Obsługi Klienta",
+   "miejscowosc": "Warszawa",
+   "adres": "02-305 Warszawa, Al. Jerozolimskie 142A; budynek „West Station”",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:00-16:30"
+     ],
+     "przerwy": []
+    },
+    "sob": "nieczynna",
+    "nd_sw": "nieczynna"
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "przy Dworcu Warszawa Zachodnia",
+    "30.09.2026 r. czynne 09:00-15:30"
+   ],
+   "pewne": true,
+   "surowe": "pn-pt 09:00-16:30\nsb,nd i święta nieczynne\nUwaga,\n30.09.2026 r. czynne 09:00-15:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:why-not-travel",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_podrozy",
+   "nazwa": "WHY NOT TRAVEL",
+   "miejscowosc": "Tyczyn",
+   "adres": "36-020 Tyczyn, Kielnarowa 108A",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:00-18:00"
+     ],
+     "przerwy": []
+    },
+    "sob": null,
+    "nd_sw": null
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": false,
+   "surowe": "pn-pt 08:00-18:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "Biuro podróży",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:wloclawek",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Włocławek",
+   "miejscowosc": "Włocławek",
+   "adres": "87-800 Włocławek, Okrzei 65",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:45-18:15"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "06:45-18:15"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:45-18:15"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "13:00-13:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:45-18:15\nw niedziele przerwy: 09:00-09:15, 13:00-13:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:wloszczowa-polnoc",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Włoszczowa Północ",
+   "miejscowosc": "Włoszczowa",
+   "adres": "29-100 Włoszczowa, Śląska 6",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:10-15:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "13:30-13:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:10-15:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "13:30-13:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:10-15:40"
+     ],
+     "przerwy": [
+      "10:40-10:55",
+      "13:30-13:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:10-15:40 przerwy: 10:40-10:55, 13:30-13:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:wolow",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Wołów",
+   "miejscowosc": "Wołów",
+   "adres": "56-100 Wołów, ul. Kolejowa 1",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:45-18:05"
+     ],
+     "przerwy": [
+      "10:35-10:50",
+      "14:45-15:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:45-18:05"
+     ],
+     "przerwy": [
+      "12:45-13:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:45-18:05"
+     ],
+     "przerwy": [
+      "12:45-13:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "pn-pt 06:45-18:05 przerwy: 10:35-10:50, 14:45-15:00\nsb-nd i święta 08:45-18:05 przerwa: 12:45-13:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "kasa agencyjna",
+   "sprzedaz_miedzynarodowa": false,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:wroclaw-glowny",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Wrocław Główny",
+   "miejscowosc": "Wrocław",
+   "adres": "50-085 Wrocław, Piłsudskiego 105",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "całodobowo",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:wroclaw-glowny-centrum-obslugi-klienta",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "biuro_obslugi",
+   "nazwa": "Wrocław Główny, Centrum Obsługi Klienta",
+   "miejscowosc": "Wrocław",
+   "adres": "50-085 Wrocław, Piłsudskiego 105",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:00-20:30"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "09:00-20:30"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "09:00-20:30"
+     ],
+     "przerwy": []
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "09:00-20:30",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:zabrze",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Zabrze",
+   "miejscowosc": "Zabrze",
+   "adres": "41-800 Zabrze, Plac Dworcowy 7",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "07:10-18:45"
+     ],
+     "przerwy": [
+      "10:30-11:00",
+      "15:20-15:50"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "07:10-18:45"
+     ],
+     "przerwy": [
+      "10:30-11:00",
+      "15:20-15:50"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "07:10-18:45"
+     ],
+     "przerwy": [
+      "10:30-11:00",
+      "15:20-15:50"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "07:10-18:45\nprzerwy: 10:30-11:00,15:20-15:50",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:zakopane",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Zakopane",
+   "miejscowosc": "Zakopane",
+   "adres": "34-500 Zakopane, Chramcówki 35",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "08:10-19:40"
+     ],
+     "przerwy": [
+      "11:30-11:45",
+      "16:00-16:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "08:10-19:40"
+     ],
+     "przerwy": [
+      "11:30-11:45",
+      "16:00-16:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "08:10-19:40"
+     ],
+     "przerwy": [
+      "11:30-11:45",
+      "16:00-16:15"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "08:10-19:40\nprzerwy: 11:30-11:45, 16:00-16:15",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:zawiercie",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Zawiercie",
+   "miejscowosc": "Zawiercie",
+   "adres": "42-400 Zawiercie, ul. 3 Maja 2",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:40-09:55",
+      "14:30-14:45"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:40-09:55",
+      "14:30-14:45"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:10-17:40"
+     ],
+     "przerwy": [
+      "09:40-09:55",
+      "14:30-14:45"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:10-17:40\nprzerwy: 09:40-09:55, 14:30-14:45",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:zebrzydowice",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Zebrzydowice",
+   "miejscowosc": "Zebrzydowice",
+   "adres": "43-410 Zebrzydowice, Dworcowa 11",
+   "dni": {
+    "pn_pt": null,
+    "sob": null,
+    "nd_sw": {
+     "godziny": [
+      "10:10-17:45"
+     ],
+     "przerwy": [
+      "13:45-14:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "nieczynne do odwołania"
+   ],
+   "pewne": false,
+   "surowe": "pn-pt; nd 10:10-17:45; przerwa: 13:45-14:00 Uwaga nieczynne do odwołania",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
+   "id": "pkp_intercity:zielona-gora",
+   "przewoznik_id": "pkp_intercity",
+   "przewoznik": "PKP INTERCITY",
+   "typ": "kasa",
+   "nazwa": "Zielona Góra",
+   "miejscowosc": "Zielona Góra",
+   "adres": "65-129 Zielona Góra, Dworcowa 32c",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "06:30-18:00"
+     ],
+     "przerwy": [
+      "11:00-11:30",
+      "13:00-13:30",
+      "15:30-16:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "06:30-18:00"
+     ],
+     "przerwy": [
+      "11:00-11:30",
+      "13:00-13:30",
+      "15:30-16:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "06:30-18:00"
+     ],
+     "przerwy": [
+      "11:00-11:30",
+      "13:00-13:30",
+      "15:30-16:00"
+     ]
+    }
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "06:30-18:00\nprzerwy: 11:00-11:30, 13:00-13:30, 15:30-16:00",
+   "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+   "tryb": "przegladarka",
+   "operator": "PKP Intercity",
+   "sprzedaz_miedzynarodowa": true,
+   "platnosc_karta": true,
+   "pobrano": "2026-10-22T08:14:18+00:00"
+  },
+  {
    "id": "polregio:aleksandrow-kujawski",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
@@ -6686,11 +10320,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "w dniach 19-21.10.2026 kasa nieczynna"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05\nUwaga:\nw dniach 19-21.10.2026 kasa nieczynna\nSob: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05\nNd i św.: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05",
+   "surowe": "Pn-Pt: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05\nSob: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05\nNd i św.: 6:00 - 17:15\nprzerwa:\n10:40 - 11:00\n12:50 - 13:05",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/bialogard/",
    "tryb": "auto"
   },
@@ -6989,11 +10621,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "09.09.2026 kasa nieczynna"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 5:30 - 15:30\nprzerwa:\n9:30 - 10:30\n13:30 - 13:45\nUwaga:\n09.09.2026 kasa nieczynna\nSob: 5:30 - 15:30\nprzerwa:\n9:45 - 10:00\n13:30 - 13:45\nNd i św.: 12:30 - 19:30\nprzerwa:\n17:30 - 17:50",
+   "surowe": "Pn-Pt: 5:30 - 15:30\nprzerwa:\n9:30 - 10:30\n13:30 - 13:45\nSob: 5:30 - 15:30\nprzerwa:\n9:45 - 10:00\n13:30 - 13:45\nNd i św.: 12:30 - 19:30\nprzerwa:\n17:30 - 17:50",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/chojna/",
    "tryb": "auto"
   },
@@ -9301,9 +12931,7 @@
       "06:10-14:35"
      ],
      "przerwy": [
-      "06:10-13:40",
-      "09:40-09:55",
-      "10:05-10:20"
+      "09:40-09:55"
      ]
     }
    },
@@ -9649,11 +13277,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "11.09.2026: kasa czynna do 13:00"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15\nUwaga:\n11.09.2026: kasa czynna do 13:00\nSob: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15\nNd i św.: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15",
+   "surowe": "Pn-Pt: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15\nSob: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15\nNd i św.: 7:45 - 17:15\nprzerwa:\n10:25 - 10:40\n15:00 - 15:15",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/szczecinek/",
    "tryb": "auto"
   },
