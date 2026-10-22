@@ -1,48 +1,48 @@
 {
  "schemat": 1,
- "wersja": "36e7d7400d277fd4",
- "wygenerowano": "2026-10-22T07:49:02+00:00",
+ "wersja": "bcccb64317f705e6",
+ "wygenerowano": "2026-10-22T07:50:39+00:00",
  "liczba": 345,
  "zrodla": {
   "polregio": {
    "ok": true,
    "liczba": 106,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
    "liczba": 139,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-10-22T07:49:02+00:00"
+   "pobrano": "2026-10-22T07:50:39+00:00"
   }
  },
  "swieta": [
@@ -1052,17 +1052,34 @@
    "miejscowosc": "Ciechanów",
    "adres": "06-400 Ciechanów, ul. Sienkiewicza 73",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "07:10-07:35"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "07:10-07:35"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "07:10-07:35"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n07:10 - 07:35",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/ciechanow",
    "tryb": "auto"
@@ -1381,17 +1398,34 @@
    "miejscowosc": "Grodzisk Mazowiecki",
    "adres": "05-825 Grodzisk Mazowiecki, ul. 1-go Maja 4",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-04:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-04:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-04:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n00:30 - 04:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/grodzisk-mazowiecki",
    "tryb": "auto"
@@ -1840,7 +1874,7 @@
    "id": "koleje_mazowieckie:lowicz-glowny",
    "przewoznik_id": "koleje_mazowieckie",
    "przewoznik": "KOLEJE MAZOWIECKIE",
-   "typ": "kasa",
+   "typ": "kasa_innego_przewoznika",
    "nazwa": "Łowicz Główny",
    "miejscowosc": "Łowicz Główny",
    "adres": "99-400 Łowicz, Dworcowa 1",
@@ -1850,9 +1884,7 @@
     "nd_sw": null
    },
    "wyjatki": [],
-   "uwagi": [
-    "Kasa prowadzona przez inną Spółkę"
-   ],
+   "uwagi": [],
    "pewne": false,
    "surowe": "pon-pt Kasa prowadzona przez inną Spółkę\nsob\nniedz i św.",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/lowicz-glowny",
@@ -2016,17 +2048,40 @@
    "miejscowosc": "Mińsk Mazowiecki",
    "adres": "05-300 Mińsk Mazowiecki, ul. Plac Dworcowy 2",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30",
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30",
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30",
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n00:30 - 03:30\n05:40 - 06:00\n17:40 - 18:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/minsk-mazowiecki",
    "tryb": "auto"
@@ -2100,17 +2155,43 @@
    "miejscowosc": "Modlin",
    "adres": "05-102 Nowy Dwór Mazowiecki, ul. Mieszka I 3",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "10:40-10:55",
+      "14:40-14:55",
+      "17:40-18:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "10:40-10:55",
+      "14:40-14:55",
+      "17:40-18:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "10:40-10:55",
+      "14:40-14:55",
+      "17:40-18:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n05:40 - 06:00\n10:40 - 10:55\n14:40 - 14:55\n17:40 - 18:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/modlin-0",
    "tryb": "auto"
@@ -2174,17 +2255,37 @@
    "miejscowosc": "Nasielsk",
    "adres": "05-191 Mogowo, ul. Srebrna 1",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "05:40-06:00",
+      "17:40-18:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n05:40 - 06:00\n17:40 - 18:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/nasielsk",
    "tryb": "auto"
@@ -2477,17 +2578,46 @@
    "miejscowosc": "Pilawa",
    "adres": "08-440 Pilawa, ul. Dworcowa 2",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-03:30",
+      "05:40-06:00",
+      "09:20-09:35",
+      "13:20-13:35",
+      "17:40-18:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-03:30",
+      "05:40-06:00",
+      "09:20-09:35",
+      "13:20-13:35",
+      "17:40-18:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-03:30",
+      "05:40-06:00",
+      "09:20-09:35",
+      "13:20-13:35",
+      "17:40-18:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n01:30 - 03:30\n05:40 - 06:00\n09:20 - 09:35\n13:20 - 13:35\n17:40 - 18:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/pilawa",
    "tryb": "auto"
@@ -2659,18 +2789,21 @@
    "dni": {
     "pn_pt": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": []
     },
     "sob": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": []
     },
     "nd_sw": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": []
@@ -2678,9 +2811,7 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo\nPunkt Informacji Pasażerskiej - czynny"
+    "Punkt Informacji Pasażerskiej - czynny"
    ],
    "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPunkt Informacji Pasażerskiej - czynny codziennie: 6:00 - 18:00",
@@ -2786,6 +2917,7 @@
    "dni": {
     "pn_pt": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": [
@@ -2794,6 +2926,7 @@
     },
     "sob": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": [
@@ -2802,6 +2935,7 @@
     },
     "nd_sw": {
      "godziny": [
+      "00:00-24:00",
       "06:00-18:00"
      ],
      "przerwy": [
@@ -2811,9 +2945,7 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo\nPunkt Informacji Pasażerskiej: czynny"
+    "Punkt Informacji Pasażerskiej: czynny"
    ],
    "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPunkt Informacji Pasażerskiej: czynny codziennie: 6:00-18:00\nPrzerwa\n01:00 - 03:00",
@@ -2889,7 +3021,7 @@
    "id": "koleje_mazowieckie:skierniewice",
    "przewoznik_id": "koleje_mazowieckie",
    "przewoznik": "KOLEJE MAZOWIECKIE",
-   "typ": "kasa",
+   "typ": "kasa_innego_przewoznika",
    "nazwa": "Skierniewice",
    "miejscowosc": "Skierniewice",
    "adres": ", Dworcowa 1",
@@ -2899,9 +3031,7 @@
     "nd_sw": null
    },
    "wyjatki": [],
-   "uwagi": [
-    "Kasa prowadzona przez inną Spółkę"
-   ],
+   "uwagi": [],
    "pewne": false,
    "surowe": "pon-pt Kasa prowadzona przez inną Spółkę\nsob\nniedz i św.",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/skierniewice",
@@ -2966,17 +3096,34 @@
    "miejscowosc": "Sochaczew",
    "adres": "96-500 Sochaczew, ul. Sienkiewicza 5",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:30"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n01:00 - 03:30",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/sochaczew",
    "tryb": "auto"
@@ -3258,17 +3405,34 @@
    "miejscowosc": "Tłuszcz",
    "adres": "05-240 Tłuszcz, ul. Warszawska 6B",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n01:00 - 03:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/tluszcz",
    "tryb": "auto"
@@ -3430,17 +3594,34 @@
    "miejscowosc": "Warszawa Gdańska",
    "adres": "00-204 Warszawa, ul . Z. Słomińskiego 6",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-04:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-04:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:30-04:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n01:30 - 04:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-gdanska",
    "tryb": "auto"
@@ -3474,17 +3655,40 @@
    "miejscowosc": "Warszawa Ochota",
    "adres": "00-803 Warszawa, ul. Al. Jerozolimskie 58",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00",
+      "09:00-09:15",
+      "13:40-13:55"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00",
+      "09:00-09:15",
+      "13:40-13:55"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-03:00",
+      "09:00-09:15",
+      "13:40-13:55"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n01:00 - 03:00\n09:00 - 09:15\n13:40 - 13:55",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-ochota",
    "tryb": "auto"
@@ -3582,17 +3786,28 @@
    "miejscowosc": "Warszawa Śródmieście",
    "adres": "00-024 Warszawa, ul. Al. Jerozolimskie 50",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": []
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-srodmiescie",
    "tryb": "auto"
@@ -3690,17 +3905,34 @@
    "miejscowosc": "Warszawa Wileńska",
    "adres": "03-734 Warszawa, ul. Targowa 72",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-04:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-04:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "01:00-04:00"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n01:00 - 04:00",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-wilenska",
    "tryb": "auto"
@@ -3754,17 +3986,34 @@
    "miejscowosc": "Warszawa Wschodnia",
    "adres": "03-802 Warszawa, ul. Lubelska 24",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:40-03:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:40-03:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:40-03:30"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n00:40 - 03:30",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-wschodnia",
    "tryb": "auto"
@@ -3778,17 +4027,46 @@
    "miejscowosc": "Warszawa Zachodnia",
    "adres": "02-305 Warszawa, ul. Aleje Jerozolimskie 142",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "06:20-07:00",
+      "09:00-09:20",
+      "14:00-14:30",
+      "18:20-19:00",
+      "22:00-22:15"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "06:20-07:00",
+      "09:00-09:20",
+      "14:00-14:30",
+      "18:20-19:00",
+      "22:00-22:15"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "06:20-07:00",
+      "09:00-09:20",
+      "14:00-14:30",
+      "18:20-19:00",
+      "22:00-22:15"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwy\n06:20 - 07:00\n09:00 - 09:20\n14:00 - 14:30\n18:20 - 19:00\n22:00 - 22:15",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/warszawa-zachodnia",
    "tryb": "auto"
@@ -4018,17 +4296,34 @@
    "miejscowosc": "Żyrardów",
    "adres": "96-300 Żyrardów, ul. Plac Piłsudskiego 1",
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "00:00-24:00"
+     ],
+     "przerwy": [
+      "00:30-03:30"
+     ]
+    }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Całodobowo",
-    "Całodobowo",
-    "Całodobowo"
-   ],
-   "pewne": false,
+   "uwagi": [],
+   "pewne": true,
    "surowe": "pon-pt Całodobowo\nsob Całodobowo\nniedz i św. Całodobowo\nPrzerwa\n00:30 - 03:30",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/zyrardow",
    "tryb": "auto"
