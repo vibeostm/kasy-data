@@ -1,3 +1,5 @@
+import json
+import pathlib
 import re
 import time
 
@@ -292,6 +294,55 @@ def skm():
     return out
 
 
+def pkp_intercity():
+    path = pathlib.Path(__file__).resolve().parent.parent / "przegladarka" / "pkp_intercity.json"
+    src = json.loads(path.read_text(encoding="utf-8"))
+    url = src["zrodlo"]
+    out = []
+    for r in src["wiersze"]:
+        miasto = r["m"]
+        lines = [l for l in r["a"] if l.strip()]
+        ai = next((i for i, l in enumerate(lines) if POSTCODE_RE.search(l)), len(lines))
+        opis = lines[:ai]
+        adres = " ".join(lines[ai:]).replace(", ,", ",").strip() or None
+        godz = "\n".join(r["g"])
+        parsed = parse_schedule(godz, default=list(DAYS))
+        oper = (r.get("o") or "").strip()
+        first = opis[0] if opis else ""
+        base = re.sub(r"(?i)^dworzec\s+(?:kolejowy\s+|pkp\s*)?", "", first).strip(" ,")
+        m_par = re.fullmatch(r"\((.+)\)", base)
+        m_st = re.search(r"(?i)^(.*?)\s*\(stacja\s+(.+?)\)$", base)
+        m_przy = next((re.search(r"(?i)dworcu\s+(.+?)\)?$", l) for l in opis if re.search(r"(?i)przy\s+dworcu", l)), None)
+        if m_par and miasto.lower() in m_par.group(1).lower() and len(m_par.group(1)) < 40:
+            base = m_par.group(1)
+        elif m_st:
+            base = f"{m_st.group(2)} – Dworzec {m_st.group(1)}"
+        elif base.lower().startswith("centrum obsługi") and m_przy:
+            base = f"{m_przy.group(1)} – Centrum Obsługi Klienta"
+        if not base or base.startswith("(") or base.upper() == "PKP" or POSTCODE_RE.search(base):
+            base = miasto
+        extra = [l for l in opis if l != first or base == miasto and first and not first.lower().startswith("dworzec")]
+        joined = " ".join(opis).lower()
+        if oper.lower().startswith("biuro"):
+            typ = "biuro_podrozy"
+        elif "centrum obsługi" in joined:
+            typ = "biuro_obslugi"
+        else:
+            typ = "kasa"
+        nazwa = base
+        if typ == "biuro_obslugi" and "centrum obsługi" not in base.lower():
+            nazwa = f"{base} – Centrum Obsługi Klienta"
+        parsed["uwagi"] = [l.strip("()") for l in extra if l.strip("()")] + parsed["uwagi"]
+        k = make_kasa("pkp_intercity", "PKP INTERCITY", nazwa, parsed, adres=adres, miejscowosc=miasto, surowe=godz, zrodlo=url, typ=typ)
+        k["operator"] = oper
+        k["sprzedaz_miedzynarodowa"] = (r.get("i") or "").lower() == "tak"
+        k["platnosc_karta"] = (r.get("c") or "").lower() == "tak"
+        k["tryb"] = "przegladarka"
+        k["pobrano"] = src.get("pobrano")
+        out.append(k)
+    return out
+
+
 SOURCES = {
     "polregio": polregio,
     "koleje_mazowieckie": koleje_mazowieckie,
@@ -301,4 +352,5 @@ SOURCES = {
     "lka": lka,
     "koleje_malopolskie": koleje_malopolskie,
     "skm": skm,
+    "pkp_intercity": pkp_intercity,
 }

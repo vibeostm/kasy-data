@@ -1,0 +1,1208 @@
+{
+ "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
+ "pobrano": "2026-10-22T08:14:18+00:00",
+ "miasta": 103,
+ "wiersze": [
+  {
+   "m": "Biała Podlaska",
+   "a": [
+    "Dworzec kolejowy Biała Podlaska",
+    "21-500 Biała Podlaska, ul. Stacyjna 1"
+   ],
+   "g": [
+    "05:30-20:00",
+    "przerwy: 11:00-11:40, 15:45-16:00, 19:00-19:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Białystok",
+   "a": [
+    "Dworzec Białystok",
+    "15-701 Białystok, Kolejowa 11"
+   ],
+   "g": [
+    "05:45-21:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Bielsko-Biała",
+   "a": [
+    "Dworzec Bielsko-Biała Główna",
+    "43-300 Bielsko-Biała, Warszawska 2"
+   ],
+   "g": [
+    "pn-pt 06:25-19:30",
+    "sb 06:25-19:30 przerwa: 10:15-10:30",
+    "nd 09:00-19:30",
+    "Uwaga,",
+    "01.10.2026 r. czynne 07:10-18:40 przerwy: 10:00-10:15, 13:45-14:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Bochnia",
+   "a": [
+    "Dworzec Bochnia",
+    "32-700 Bochnia, ul. Poniatowskiego 29"
+   ],
+   "g": [
+    "05:45-17:15 przerwy: 09:20-09:35, 13:20-13:35"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Bydgoszcz",
+   "a": [
+    "Dworzec Bydgoszcz Główna",
+    "85-059 Bydgoszcz, Zygmunta Augusta 7"
+   ],
+   "g": [
+    "05:50-21:20"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Częstochowa",
+   "a": [
+    "(Częstochowa Stradom)",
+    "42-217 Częstochowa, ul. Pułaskiego 100"
+   ],
+   "g": [
+    "pn-sb 07:15-16:45 przerwy: 10:30-10:45, 14:15-14:30",
+    "nd 07:15-14:45 przerwa: 10:30-11:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Częstochowa",
+   "a": [
+    "42-200 Częstochowa, Al. Wolności 21"
+   ],
+   "g": [
+    "06:40-20:10",
+    "Uwaga,",
+    "30.09.2026 r. czynne 10:00-18:10 przerwa: 13:45-14:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Dębica",
+   "a": [
+    "Dworzec kolejowy Dębica",
+    "39-200 Dębica, ul. Głowackiego 36"
+   ],
+   "g": [
+    "05:50-21:20",
+    "przerwy: 08:45-09:00, 11:45-12:00, 13:20-13:50, 15:50-16:05, 17:50-18:05",
+    "Uwaga,",
+    "14.10.2026 r. czynne 05:50-17:20 przerwy: 08:45-09:00, 13:20-13:35"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Działdowo",
+   "a": [
+    "Dworzec PKP",
+    "13-201 Działdowo, Marii Curie Skłodowskiej 39"
+   ],
+   "g": [
+    "pn-sb 06:20-15:30, nd 07:15-15:30",
+    "przerwa codziennie: 13:40-14:10"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Elbląg",
+   "a": [
+    "82-300 Elbląg, Plac Dworcowy 1"
+   ],
+   "g": [
+    "07:10-16:40",
+    "przerwy: 09:00-09:15, 14:45-15:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gdańsk",
+   "a": [
+    "Gdańsk Oliwa",
+    "80-320 Gdańsk, Plac Dworcowy 1"
+   ],
+   "g": [
+    "pn-sb 08:00-17:30 przerwy: 11:00-11:15, 13:45-14:00",
+    "nd 09:15-16:45 przerwy: 11:50-12:05, 13:45-14:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gdańsk",
+   "a": [
+    "Gdańsk Wrzeszcz",
+    "80-243 Gdańsk, Dmowskiego 1a"
+   ],
+   "g": [
+    "pn-sb 07:05-18:35 przerwy: 10:25-10:40, 14:25-14:40",
+    "nd 09:05-18:35 przerwy: 12:00-12:15, 15:00-15:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gdańsk",
+   "a": [
+    "Gdańsk Główny, Centrum Obsługi Klienta",
+    "80-895 Gdańsk, ul. Podwale Grodzkie 2"
+   ],
+   "g": [
+    "08:45-20:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gdańsk",
+   "a": [
+    "Gdańsk Główny",
+    "80-895 Gdańsk, ul. Podwale Grodzkie 2"
+   ],
+   "g": [
+    "05:30-20:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gdynia",
+   "a": [
+    "Gdynia Główna",
+    "81-324 Gdynia, Pl. Konstytucji 1"
+   ],
+   "g": [
+    "05:15-20:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Gliwice",
+   "a": [
+    "44-100 Gliwice, Bohaterów Getta Warszawskiego 12"
+   ],
+   "g": [
+    "06:10-21:40",
+    "Uwaga,",
+    "30.09.2026 r. przerwy: 10:00-10:30, 13:40-14:10, 17:10-17:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Głogów",
+   "a": [
+    "(sprzedaż biletów międzynarodowych wyłącznie na pociągi bezpośrednie z postojem na stacji Głogów)",
+    "67-200 Głogów, Plac Tysiąclecia 1"
+   ],
+   "g": [
+    "pn-pt 05:40-17:00 przerwy: 09:55-10:10, 13:55-14:10",
+    "sb-nd i święta 08:00-17:20 przerwy: 11:45-12:00, 14:20-15:05"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Iława",
+   "a": [
+    "Dworzec PKP",
+    "14-200 Iława, Dworcowa 3"
+   ],
+   "g": [
+    "pn-pt 06:10-17:40 przerwy: 09:30-09:45,13:30-13:45",
+    "sb-nd i święta 07:30-17:00 przerwy: 09:30-09:45,13:30-13:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Jarosław",
+   "a": [
+    "37-500 Jarosław, ul. Słowackiego 34"
+   ],
+   "g": [
+    "06:10-18:30",
+    "Uwaga:",
+    "w dniach 19-22.10.2026 r. czynne 06:10-17:40, przerwy: 09:35-09:50, 13:00-13:15",
+    "w dniu 24.10.2026 r. czynne 06:10-16:40, przerwy: 09:35-09:50, 13:00-13:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Jelenia Góra",
+   "a": [
+    "58-500 Jelenia Góra, ul. 1 Maja 77"
+   ],
+   "g": [
+    "05:15-20:00",
+    "przerwy: 08:45-09:00, 12:30-12:40, 15:45-16:00"
+   ],
+   "k": "Tak",
+   "i": "Nie",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Katowice",
+   "a": [
+    "Katowice, Centrum Obsługi Klienta",
+    "40-098 Katowice, Plac Marii i Lecha Kaczyńskich 2"
+   ],
+   "g": [
+    "08:00-19:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Katowice",
+   "a": [
+    "Dworzec PKP",
+    "40-098 Katowice, Plac Marii i Lecha Kaczyńskich 2"
+   ],
+   "g": [
+    "całodobowo",
+    "przerwa: 00:30-00:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kielce",
+   "a": [
+    "Dworzec PKP",
+    "25-506 Kielce, Plac Niepodległości 1"
+   ],
+   "g": [
+    "06:15-19:40",
+    "w niedziele przerwa: 16:45-17:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kołobrzeg",
+   "a": [
+    "78-100 Kołobrzeg, Al. Kolejowa 3"
+   ],
+   "g": [
+    "05:15-22:00",
+    "przerwa: 19:30-19:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Konin",
+   "a": [
+    "62-510 Konin, Kolejowa 1"
+   ],
+   "g": [
+    "08:40-17:10",
+    "przerwy: 12:00-12:15, 14:45-15:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Koszalin",
+   "a": [
+    "Dworzec tymczasowy w przejściu podziemnym",
+    "75-200 Koszalin, Armii Krajowej 3"
+   ],
+   "g": [
+    "pn-sb 06:05-17:35 przerwy: 09:30-09:45, 13:45-14:00",
+    "nd 09:35-17:05 przerwy: 12:00-12:15, 15:00-15:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kraków",
+   "a": [
+    "Dworzec Kraków Płaszów",
+    "30-902 Kraków, Plac Braci Dudzińskich 1"
+   ],
+   "g": [
+    "07:15-16:45 przerwy: 09:45-10:00, 13:00-13:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kraków",
+   "a": [
+    "Dworzec Kraków Główny",
+    "Centrum Obsługi Klienta",
+    "31-154 Kraków, ul. Pawia 5a"
+   ],
+   "g": [
+    "08:30-20:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kraków",
+   "a": [
+    "Dworzec Kraków Główny",
+    "31-154 Kraków, ul. Pawia 5A"
+   ],
+   "g": [
+    "całodobowo"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Kutno",
+   "a": [
+    "99-310 Kutno, 3 Maja 5"
+   ],
+   "g": [
+    "05:30-21:00",
+    "przerwa: 08:00-08:15",
+    "Uwaga:",
+    "w dmiu 14.10.2026 w godzinach: 10 :00- 12:00 kasa nieczynna"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Legnica",
+   "a": [
+    "59-220 Legnica, ul. Dworcowa 5"
+   ],
+   "g": [
+    "05:20-21:10",
+    "przerwy: 08:55-09:10, 12:40-13:10, 16:40-16:55, 19:00-19:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Leszno",
+   "a": [
+    "64-100 Leszno, Dworcowa 1"
+   ],
+   "g": [
+    "07:10-16:40",
+    "przerwy: 09:15-09:30, 14:15-14:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Lębork",
+   "a": [
+    "84-300 Lębork, Dworcowa 8a"
+   ],
+   "g": [
+    "07:30-15:30",
+    "przerwa: 10:40-11:05"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Lublin",
+   "a": [
+    "Dworzec Lublin Główny",
+    "20-408 Lublin,",
+    "Plac Dworcowy 1"
+   ],
+   "g": [
+    "05:30-21:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Łańcut",
+   "a": [
+    "Dworzec kolejowy Łańcut",
+    "37-100 Łańcut, ul. Kolejowa 2"
+   ],
+   "g": [
+    "05:00-20:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Łowicz",
+   "a": [
+    "99-400 Łowicz, Dworcowa 2"
+   ],
+   "g": [
+    "pn-pt 05:45:-21:15 przerwy: 08:45-09:00, 11:45-12:00, 13:15-13:45, 15:45-16:00, 18:00-18:15sb 05:45-17:15 przerwy: 08:45-09:00, 13:45-14:00nd 07:15-18:45 przerwy: 09:20-09:35, 13:45-14:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Łódź",
+   "a": [
+    "Łódź Widzew",
+    "92-305 Łódź, Służbowa 8"
+   ],
+   "g": [
+    "05:10-20:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Łódź",
+   "a": [
+    "Dworzec Łódź Fabryczna",
+    "90-001 Łódź, Plac Bronisława Sałacińskiego 1"
+   ],
+   "g": [
+    "05:15-20:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Malbork",
+   "a": [
+    "82-200 Malbork, Dworcowa 17"
+   ],
+   "g": [
+    "05:55-19:40",
+    "w niedziele przerwa: 08:40-08:55"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Olsztyn",
+   "a": [
+    "10-589 Olsztyn, Pl.Konstytucji 3 Maja 1"
+   ],
+   "g": [
+    "06:10-19:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Opole",
+   "a": [
+    "Dworzec Opole Główne",
+    "45-075 Opole, ul. Krakowska 48"
+   ],
+   "g": [
+    "06:10-20:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Piotrków Trybunalski",
+   "a": [
+    "97-300 Piotrków Trybunalski, Polskiej Organizacji Wojskowej 5"
+   ],
+   "g": [
+    "pn-sb 06:00-21:30 przerwy: 08:55-09:10, 11:40-11:55, 13:30-14:00, 16:00-16:15, 18:05-18:20",
+    "nd 06:00-17:30 przerwy: 08:55-09:10, 13:45-14:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Poznań",
+   "a": [
+    "Dworzec Zachodni (stacja Poznań Główny)",
+    "60-700 Poznań, ul. Głogowska 15"
+   ],
+   "g": [
+    "pn-czw i sb 08:15-19:35 przerwy: 12:00-12:15, 16:15-16:30",
+    "pt i nd 08:15-20:35 przerwa: 12:00-12:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Poznań",
+   "a": [
+    "Dworzec Poznań Główny",
+    "61-801 Poznań, ul. Dworcowa 2"
+   ],
+   "g": [
+    "całodobowo"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Przemyśl",
+   "a": [
+    "37-700 Przemyśl, Plac Legionów 1"
+   ],
+   "g": [
+    "całodobowo",
+    "przerwy: 01:00-01:15, 02:30-02:45, 22:30-22:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Puławy",
+   "a": [
+    "Puławy Miasto",
+    "24-100 Puławy, ul. Partyzantów 59"
+   ],
+   "g": [
+    "09:30-17:00",
+    "przerwa: 13:00-13:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Radom",
+   "a": [
+    "26-600 Radom, Plac Dworcowy 2"
+   ],
+   "g": [
+    "pn-sb 07:30-19:00",
+    "nd 09:10-18:40",
+    "przerwy codziennie: 11:15-11:30, 16:00-16:15",
+    "Uwaga,",
+    "30.09.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Rybnik",
+   "a": [
+    "44-200 Rybnik, Dworcowa 2"
+   ],
+   "g": [
+    "07:10-18:40",
+    "przerwy: 11:00-11:15, 14:30-14:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Rzeszów",
+   "a": [
+    "35-005 Rzeszów, Plac Dworcowy 1"
+   ],
+   "g": [
+    "05:50-21:20 przerwa: 19:10-19:25"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Skarżysko Kamienna",
+   "a": [
+    "26-110 Skarżysko Kamienna, al. Niepodległości 90"
+   ],
+   "g": [
+    "pn-sb 06:15-18:45",
+    "nd 07:15-19:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Skierniewice",
+   "a": [
+    "96-100 Skierniewice, Dworcowa 1"
+   ],
+   "g": [
+    "pn-sb 05:15-21:15",
+    "nd 05:15-20:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Słupsk",
+   "a": [
+    "Dworzec tymczasowy - znajduje się w sąsiadującym z obecnym dworcem biurowcu - wejście od strony ul. M. Konopnickiej",
+    "76-200 Słupsk, Kołłątaja 32"
+   ],
+   "g": [
+    "pn-sb 6:45-18:15",
+    "nd 8:45-18:15",
+    "przerwy codziennie: 10:25-10:40, 14:45-15:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Sopot",
+   "a": [
+    "81-704 Sopot, Dworcowa 7"
+   ],
+   "g": [
+    "pn-sb 07:05-18:35 przerwy: 09:50-10:05, 13:40-13:55",
+    "nd 09:05-18:35 przerwy: 11:05-11:20, 13:40-13:55"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Sosnowiec",
+   "a": [
+    "41-200 Sosnowiec, ul. 3 Maja 16"
+   ],
+   "g": [
+    "06:10-17:40",
+    "przerwy: 09:25-09:40, 14:00-14:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Szczecin",
+   "a": [
+    "Dworzec tymczasowy - kontener Szczecin Dąbie",
+    "70-822 Szczecin, Stacyjna 3"
+   ],
+   "g": [
+    "pn-sb 06:10-17:40",
+    "nd 08:10-17:40",
+    "przerwy codziennie: 10:40-10:55, 15:00-15:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Szczecin",
+   "a": [
+    "Dworzec Szczecin Główny",
+    "70-206 Szczecin, Kolumba 2"
+   ],
+   "g": [
+    "05:20-20:50"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Szklarska Poręba",
+   "a": [
+    "Dworzec kolejowy Szklarska Poręba Górna",
+    "58-580 Szklarska Poręba, ul. Dworcowa 10"
+   ],
+   "g": [
+    "08:00-19:30",
+    "przerwy: 10:45-11:00, 15:45-16:00"
+   ],
+   "k": "Tak",
+   "i": "Nie",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Świebodzin",
+   "a": [
+    "66-200 Świebodzin, Plac Dworcowy 1"
+   ],
+   "g": [
+    "pn-pt 06:45-15:45, sb 07:15-14:30przerwy: 07:45-08:15, 12:00-13:15 nd i święta nieczynne"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Tarnów",
+   "a": [
+    "33-100 Tarnów, Pl. Dworcowy 4"
+   ],
+   "g": [
+    "06:15-19:40"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Tczew",
+   "a": [
+    "83-110 Tczew, Pomorska 18"
+   ],
+   "g": [
+    "05:55-20:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Terespol",
+   "a": [
+    "21-550 Terespol, Janowska 23"
+   ],
+   "g": [
+    "pn-pt 06:10-17:40 przerwy: 10:50-11:05, 13:00-13:15",
+    "sb 06:10-15-40 przerwy: 10:50-11:05, 13:00-13:15",
+    "nd 09:25-16:55 przerwa: 12:45-13:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Toruń",
+   "a": [
+    "Toruń Główny",
+    "87-113 Toruń, Kujawska 1"
+   ],
+   "g": [
+    "07:15-19:50"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Tychy",
+   "a": [
+    "43-100 Tychy, ul. Generała Andersa 19"
+   ],
+   "g": [
+    "pn-pt 08:10-19:40 przerwy: 12:45-13:00, 16:40-16:55",
+    "sb-nd 08:10-15:40 przerwa: 12:30-13:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Tyczyn",
+   "a": [
+    "WHY NOT TRAVEL",
+    "36-020 Tyczyn, Kielnarowa 108A"
+   ],
+   "g": [
+    "pn-pt 08:00-18:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "Biuro podróży"
+  },
+  {
+   "m": "Ustka",
+   "a": [
+    "76-270 Ustka, ul. Dworcowa 21"
+   ],
+   "g": [
+    "06:50-13:50 przerwa: 11:30-11:50",
+    "święta nieczynne"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Wałbrzych",
+   "a": [
+    "Dworzec kolejowy Wałbrzych Miasto",
+    "58-302 Wałbrzych, ul. Armii Krajowej 26c"
+   ],
+   "g": [
+    "05:30-20:45",
+    "przerwy: 08:35-08:50, 13:10-13:30, 16:35-16:50"
+   ],
+   "k": "Tak",
+   "i": "Nie",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Centrum Obsługi Klienta",
+    "(przy Dworcu Warszawa Zachodnia)",
+    "02-305 Warszawa, Al. Jerozolimskie 142A; budynek „West Station”"
+   ],
+   "g": [
+    "pn-pt 09:00-16:30",
+    "sb,nd i święta nieczynne",
+    "Uwaga,",
+    "30.09.2026 r. czynne 09:00-15:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "eTravel Services sp. z o.o",
+    "02-305 Warszawa, Aleje Jerozolimskie 96"
+   ],
+   "g": [
+    "pn-pt 09:00-18:00; (obsługa tylko klientów korporacyjnych);"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "Biuro podróży"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Dworzec Warszawa Centralna Centrum Obsługi Klienta",
+    "00-024 Warszawa, Al. Jerozolimskie 54"
+   ],
+   "g": [
+    "08:30-20:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Dworzec Warszawa Zachodnia",
+    "02-305 Warszawa, Al. Jerozolimskie 142"
+   ],
+   "g": [
+    "całodobowo",
+    "przerwa: 00:00-00:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Dworzec Warszawa Wschodnia",
+    "03-743 Warszawa, ul. Kijowska 20"
+   ],
+   "g": [
+    "całodobowo",
+    "przerwa: 00:00-00:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Dworzec Warszawa Centralna",
+    "00-024 Warszawa, Al. Jerozolimskie 54"
+   ],
+   "g": [
+    "całodobowo"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Warszawa",
+   "a": [
+    "Dworzec Warszawa Zachodnia",
+    "01-221 Warszawa, ul. Tunelowa 6"
+   ],
+   "g": [
+    "pn-pt 09:00-20:00 przerwa: 11:30-11:45",
+    "sb-nd 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00",
+    "Uwaga,",
+    "14-15.10.2026 r. czynne 09:00-19:50"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Włocławek",
+   "a": [
+    "87-800 Włocławek, Okrzei 65"
+   ],
+   "g": [
+    "06:45-18:15",
+    "w niedziele przerwy: 09:00-09:15, 13:00-13:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Włoszczowa",
+   "a": [
+    "Włoszczowa Północ",
+    "29-100 Włoszczowa, Śląska 6"
+   ],
+   "g": [
+    "08:10-15:40 przerwy: 10:40-10:55, 13:30-13:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Wołów",
+   "a": [
+    "56-100 Wołów, ul. Kolejowa 1"
+   ],
+   "g": [
+    "pn-pt 06:45-18:05 przerwy: 10:35-10:50, 14:45-15:00",
+    "sb-nd i święta 08:45-18:05 przerwa: 12:45-13:15"
+   ],
+   "k": "Tak",
+   "i": "Nie",
+   "c": "Tak",
+   "o": "kasa agencyjna"
+  },
+  {
+   "m": "Wrocław",
+   "a": [
+    "Wrocław Główny",
+    "50-085 Wrocław, Piłsudskiego 105"
+   ],
+   "g": [
+    "całodobowo"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Wrocław",
+   "a": [
+    "Wrocław Główny, Centrum Obsługi Klienta",
+    "50-085 Wrocław, Piłsudskiego 105"
+   ],
+   "g": [
+    "09:00-20:30"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Zabrze",
+   "a": [
+    "41-800 Zabrze, Plac Dworcowy 7"
+   ],
+   "g": [
+    "07:10-18:45",
+    "przerwy: 10:30-11:00,15:20-15:50"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Zakopane",
+   "a": [
+    "34-500 Zakopane, Chramcówki 35"
+   ],
+   "g": [
+    "08:10-19:40",
+    "przerwy: 11:30-11:45, 16:00-16:15"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Zawiercie",
+   "a": [
+    "42-400 Zawiercie, ul. 3 Maja 2"
+   ],
+   "g": [
+    "06:10-17:40",
+    "przerwy: 09:40-09:55, 14:30-14:45"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Zebrzydowice",
+   "a": [
+    "43-410 Zebrzydowice, Dworcowa 11"
+   ],
+   "g": [
+    "pn-pt; nd 10:10-17:45; przerwa: 13:45-14:00 Uwaga nieczynne do odwołania"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  },
+  {
+   "m": "Zielona Góra",
+   "a": [
+    "65-129 Zielona Góra, Dworcowa 32c"
+   ],
+   "g": [
+    "06:30-18:00",
+    "przerwy: 11:00-11:30, 13:00-13:30, 15:30-16:00"
+   ],
+   "k": "Tak",
+   "i": "Tak",
+   "c": "Tak",
+   "o": "PKP Intercity"
+  }
+ ]
+}

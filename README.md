@@ -54,7 +54,8 @@ https://raw.githubusercontent.com/vibeostm/kasy-data/main/data/kasy.json
 - `nd_sw` obowiązuje w niedziele i w dni z listy `swieta`.
 - `pewne: false` = parser nie był pewny przynajmniej jednego dnia.
 - `uwagi` zawierają m.in. ogłoszenia o czasowym zamknięciu – parser ich nie interpretuje.
-- `typ`: `kasa`, `nieczynna`, `brak_kasy`, `kasa_innego_przewoznika`, `biuro_obslugi`, `punkt_sprzedazy`.
+- `typ`: `kasa`, `nieczynna`, `brak_kasy`, `kasa_innego_przewoznika`, `biuro_obslugi`, `punkt_sprzedazy`, `biuro_podrozy`.
+- Kasy IC mają dodatkowo: `operator` (`PKP Intercity` / `kasa agencyjna` / `Biuro podróży`), `sprzedaz_miedzynarodowa`, `platnosc_karta`, `pobrano`.
 - `wyjatki` (tylko z ręcznych nadpisań): `{"od","do","dni":"nieczynna"}` albo `{"od","do","godziny":[..],"przerwy":[..]}`.
 
 ## Źródła
@@ -69,8 +70,7 @@ https://raw.githubusercontent.com/vibeostm/kasy-data/main/data/kasy.json
 | ŁKA | auto |
 | Koleje Małopolskie | auto |
 | SKM Trójmiasto | auto |
-| PKP Intercity | brak – strona blokuje serwery GitHuba |
-| Arriva RP | brak – strona blokuje serwery GitHuba |
+| PKP Intercity | przeglądarka – zbierane w przeglądarce w aplikacji Claude (`tools/IC_AKTUALIZACJA.md`), plik `przegladarka/pkp_intercity.json` |
 
 ## Aktualizacja
 

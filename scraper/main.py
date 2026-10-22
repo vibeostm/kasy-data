@@ -96,7 +96,7 @@ def main():
     status = {}
     for name, fn in SOURCES.items():
         if args.only and name not in args.only:
-            kasy += [k for k in prev_kasy if k.get("przewoznik_id") == name and k.get("tryb") == "auto"]
+            kasy += [k for k in prev_kasy if k.get("przewoznik_id") == name and k.get("tryb") in ("auto", "przegladarka")]
             if name in prev_status:
                 status[name] = prev_status[name]
             continue
@@ -108,7 +108,7 @@ def main():
             status[name] = {"ok": True, "liczba": len(items), "pobrano": now}
             print(f"[OK]   {name}: {len(items)}")
         except Exception as e:
-            old = [k for k in prev_kasy if k.get("przewoznik_id") == name and k.get("tryb") == "auto"]
+            old = [k for k in prev_kasy if k.get("przewoznik_id") == name and k.get("tryb") in ("auto", "przegladarka")]
             kasy += old
             last_ok = prev_status.get(name, {}).get("pobrano")
             status[name] = {"ok": False, "blad": f"{type(e).__name__}: {e}"[:300], "liczba": len(old), "pobrano": last_ok}
