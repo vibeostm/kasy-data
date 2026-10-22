@@ -130,6 +130,9 @@ def parse_schedule(text, default=None, start_mode="open"):
             continue
         ranges = find_ranges(seg)
         leftover = RANGE_RE.sub(" ", seg)
+        if mode == "open" and re.search(r"(?i)całodob", seg):
+            ranges.append("00:00-24:00")
+            leftover = re.sub(r"(?i)\(?całodob\w*\)?", " ", leftover)
         if mode == "open":
             if ranges:
                 if target:

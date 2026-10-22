@@ -76,12 +76,13 @@ def koleje_mazowieckie():
             cechy = clean(tds[2].get_text(" "))
             godz = node_text(tds[3])
             has_kasa = "kasa" in cechy.lower() and "brak kasy" not in adres.lower()
-            parsed = parse_schedule(godz) if has_kasa else None
+            inna = "inną spółkę" in godz.lower()
+            parsed = parse_schedule(godz) if has_kasa and not inna else None
             link = tds[0].find("a")
             out.append(make_kasa(
                 "koleje_mazowieckie", "KOLEJE MAZOWIECKIE", nazwa, parsed,
                 adres=None if not has_kasa else adres,
-                surowe=godz, typ="kasa" if has_kasa else "brak_kasy",
+                surowe=godz, typ=("kasa_innego_przewoznika" if inna else "kasa") if has_kasa else "brak_kasy",
                 zrodlo="https://www.mazowieckie.com.pl" + link["href"] if link and link.get("href", "").startswith("/") else base,
             ))
         nxt = s.select_one(f'a[href="?page={page + 1}"]')
