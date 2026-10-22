@@ -1,0 +1,12 @@
+{
+ "_przyklad": {
+  "_opis": "Klucz = id kasy z data/kasy.json. Wpisy zaczynające się od _ są ignorowane. Pola zastępują dane ze scrapera.",
+  "dni": {
+   "sob": {"godziny": ["07:00-15:00"], "przerwy": []}
+  },
+  "wyjatki": [
+   {"od": "2026-11-03", "do": "2026-11-03", "dni": "nieczynna", "opis": "awaria"},
+   {"od": "2026-11-10", "do": "2026-11-12", "godziny": ["08:00-14:00"], "przerwy": [], "opis": "skrócone godziny"}
+  ]
+ }
+}
