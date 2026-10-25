@@ -1,53 +1,53 @@
 {
  "schemat": 1,
- "wersja": "b0caee8cb614b166",
- "wygenerowano": "2026-10-24T19:48:44+00:00",
+ "wersja": "f9a371a4e874ab2b",
+ "wygenerowano": "2026-10-25T00:21:16+00:00",
  "liczba": 428,
  "zrodla": {
   "polregio": {
    "ok": true,
    "liczba": 106,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
    "liczba": 139,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-10-22T08:14:53+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   },
   "pkp_intercity": {
    "ok": true,
    "liczba": 83,
-   "pobrano": "2026-10-24T19:48:44+00:00"
+   "pobrano": "2026-10-25T00:21:16+00:00"
   }
  },
  "swieta": [
@@ -5565,34 +5565,28 @@
      "godziny": [
       "06:00-17:30"
      ],
-     "przerwy": [
-      "08:50-09:05",
-      "13:30-13:45"
-     ]
+     "przerwy": []
     },
     "sob": {
      "godziny": [
       "06:00-17:30"
      ],
-     "przerwy": [
-      "08:50-09:05",
-      "13:30-13:45"
-     ]
+     "przerwy": []
     },
     "nd_sw": {
      "godziny": [
       "06:00-17:30"
      ],
-     "przerwy": [
-      "08:50-09:05",
-      "13:30-13:45"
-     ]
+     "przerwy": []
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Od dnia 24.10.2026\n06:00 - 21:30",
+    "Od dnia 24.10.2026\n08:50 - 09:05\n13:30 - 13:45\n17:15 - 17:30"
+   ],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n06:00 - 17:30\nPrzerwy: 08:50 - 09:05\n13:30 - 13:45",
+   "surowe": "Czynne 7 dni w tygodniu\n06:00 - 17:30\nUwaga! Od dnia 24.10.2026\n06:00 - 21:30\nPrzerwy: Uwaga! Od dnia 24.10.2026\n08:50 - 09:05\n13:30 - 13:45\n17:15 - 17:30",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -6511,6 +6505,7 @@
    },
    "wyjatki": [],
    "uwagi": [
+    "Z powodu problemów technicznych sprzedaż biletów z systemu MIGAWKA w kasie na dw. Łódź Fabryczna została zawieszona do odwołania.",
     "Hala zachodnia budynku dworca Łódź Fabryczna",
     "Kasa nr 3",
     "Kasa nr 4"
@@ -12018,7 +12013,7 @@
      ],
      "przerwy": [
       "11:00-11:15",
-      "13:35-14:20"
+      "13:30-14:15"
      ]
     },
     "sob": {
@@ -12027,7 +12022,7 @@
      ],
      "przerwy": [
       "11:00-11:15",
-      "13:35-14:20"
+      "13:30-14:15"
      ]
     },
     "nd_sw": {
@@ -12036,14 +12031,14 @@
      ],
      "przerwy": [
       "11:00-11:15",
-      "13:35-14:20"
+      "13:30-14:15"
      ]
     }
    },
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 6:00 - 18:00\nprzerwa:\n11:00 - 11:15\n13:35 - 14:20\nSob: 8:00 - 16:00\nprzerwa:\n11:00 - 11:15\n13:35 - 14:20\nNd i św.: 8:00 - 16:00\nprzerwa:\n11:00 - 11:15\n13:35 - 14:20",
+   "surowe": "Pn-Pt: 6:00 - 18:00\nprzerwa:\n11:00 - 11:15\n13:30 - 14:15\nSob: 8:00 - 16:00\nprzerwa:\n11:00 - 11:15\n13:30 - 14:15\nNd i św.: 8:00 - 16:00\nprzerwa:\n11:00 - 11:15\n13:30 - 14:15",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/nowy-sacz/",
    "tryb": "auto"
   },
@@ -12129,9 +12124,9 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:00-10:35",
-      "11:20-12:00",
-      "12:20-16:00"
+      "06:00-10:30",
+      "11:20-13:25",
+      "13:45-16:00"
      ],
      "przerwy": []
     }
@@ -12139,7 +12134,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 05:00 - 10:35\n11:20 - 12:00\n12:20 - 17.00\nSob: 06:00 - 10:35\n11:20 - 12:00\n12:20 - 16:00\nNd i św.: 06:00 - 10:35\n11:20 - 12:00\n12:20 - 16:00",
+   "surowe": "Pn-Pt: 05:00 - 10:35\n11:20 - 12:00\n12:20 - 17.00\nSob: 06:00 - 10:35\n11:20 - 12:00\n12:20 - 16:00\nNd i św.: 06:00 - 10:30\n11:20 - 13:25\n13:45 - 16:00",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/olesnica/",
    "tryb": "auto"
   },
