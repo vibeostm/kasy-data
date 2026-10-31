@@ -1,7 +1,7 @@
 {
  "schemat": 1,
- "wersja": "f9a371a4e874ab2b",
- "wygenerowano": "2026-10-25T00:21:16+00:00",
+ "wersja": "a69a137ffb582699",
+ "wygenerowano": "2026-10-31T20:49:26+00:00",
  "liczba": 428,
  "zrodla": {
   "polregio": {
@@ -47,7 +47,7 @@
   "pkp_intercity": {
    "ok": true,
    "liczba": 83,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-10-31T20:49:26+00:00"
   }
  },
  "swieta": [
@@ -6634,7 +6634,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:bialystok",
@@ -6673,7 +6673,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:bielsko-biala-glowna",
@@ -6707,16 +6707,16 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "01.10.2026 r. czynne 07:10-18:40 przerwy: 10:00-10:15, 13:45-14:00"
+    "30.10.2026 r. czynne 10:00-19:30 przerwy: 12:30-12:45, 16:25-16:40"
    ],
    "pewne": true,
-   "surowe": "pn-pt 06:25-19:30\nsb 06:25-19:30 przerwa: 10:15-10:30\nnd 09:00-19:30\nUwaga,\n01.10.2026 r. czynne 07:10-18:40 przerwy: 10:00-10:15, 13:45-14:00",
+   "surowe": "pn-pt 06:25-19:30\nsb 06:25-19:30 przerwa: 10:15-10:30\nnd 09:00-19:30\nUwaga,\n30.10.2026 r. czynne 10:00-19:30 przerwy: 12:30-12:45, 16:25-16:40",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:bochnia",
@@ -6764,7 +6764,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:bydgoszcz-glowna",
@@ -6803,7 +6803,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:czestochowa",
@@ -6834,17 +6834,15 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "30.09.2026 r. czynne 10:00-18:10 przerwa: 13:45-14:15"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "06:40-20:10\nUwaga,\n30.09.2026 r. czynne 10:00-18:10 przerwa: 13:45-14:15",
+   "surowe": "06:40-20:10",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:czestochowa-stradom",
@@ -6891,7 +6889,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:debica",
@@ -6940,15 +6938,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "30.10.2026 r. czynne 06:10-17:40 przerwy: 09:30-09:45, 13:40-14:10\n31.10.2026 r. czynne 06:10-13:40 przerwa: 09:30-09:45\nod 01.11.2026 r. czynne 06:10-17:40 przerwy: 09:30-09:45, 13:45-14:00, 15:50-16:05"
+   ],
    "pewne": true,
-   "surowe": "05:50-21:20\nprzerwy: 08:45-09:00, 11:45-12:00, 13:20-13:50, 15:50-16:05, 17:50-18:05",
+   "surowe": "05:50-21:20\nprzerwy: 08:45-09:00, 11:45-12:00, 13:20-13:50, 15:50-16:05, 17:50-18:05\nUwaga,\n30.10.2026 r. czynne 06:10-17:40 przerwy: 09:30-09:45, 13:40-14:10\n31.10.2026 r. czynne 06:10-13:40 przerwa: 09:30-09:45\nod 01.11.2026 r. czynne 06:10-17:40 przerwy: 09:30-09:45, 13:45-14:00, 15:50-16:05",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:dzialdowo",
@@ -6961,39 +6961,42 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "06:20-15:30"
+      "06:15-15:30"
      ],
      "przerwy": [
-      "13:40-14:10"
+      "09:35-09:50",
+      "13:35-14:10"
      ]
     },
     "sob": {
      "godziny": [
-      "06:20-15:30"
+      "06:15-15:30"
      ],
      "przerwy": [
-      "13:40-14:10"
+      "09:35-09:50",
+      "13:35-14:10"
      ]
     },
     "nd_sw": {
      "godziny": [
-      "07:15-15:30"
+      "07:10-15:30"
      ],
      "przerwy": [
-      "13:40-14:10"
+      "09:35-09:50",
+      "13:35-14:10"
      ]
     }
    },
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "pn-sb 06:20-15:30, nd 07:15-15:30\nprzerwa codziennie: 13:40-14:10",
+   "surowe": "pn-sb 06:15-15:30, nd 07:10-15:30\nprzerwy codziennie: 09:35-09:50, 13:35-14:10",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:elblag",
@@ -7041,7 +7044,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:etravel-services-sp-z-o-o",
@@ -7072,7 +7075,7 @@
    "operator": "Biuro podróży",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gdansk-glowny",
@@ -7111,7 +7114,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gdansk-glowny-centrum-obslugi-klienta",
@@ -7150,7 +7153,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gdansk-oliwa",
@@ -7198,7 +7201,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gdansk-wrzeszcz",
@@ -7246,7 +7249,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gdynia-glowna",
@@ -7285,7 +7288,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:gliwice",
@@ -7316,17 +7319,15 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "23-24.10.2026 r. przerwy: 10:00-10:30, 13:40-14:10, 17:10-17:40"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "06:10-21:40\nUwaga,\n23-24.10.2026 r. przerwy: 10:00-10:30, 13:40-14:10, 17:10-17:40",
+   "surowe": "06:10-21:40",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:glogow",
@@ -7376,7 +7377,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:ilawa",
@@ -7424,7 +7425,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:jaroslaw",
@@ -7456,16 +7457,16 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "w dniach 22.10.2026 r. czynne 06:10-17:40, przerwy: 09:35-09:50, 13:00-13:15\nw dniu 24.10.2026 r. czynne 06:10-16:40, przerwy: 09:35-09:50, 13:00-13:15"
+    "01.11.2026 r. czynne 06:10-17:40 przerwy: 09:35-09:50, 13:00-13:15"
    ],
    "pewne": true,
-   "surowe": "06:10-18:30\nUwaga:\nw dniach 22.10.2026 r. czynne 06:10-17:40, przerwy: 09:35-09:50, 13:00-13:15\nw dniu 24.10.2026 r. czynne 06:10-16:40, przerwy: 09:35-09:50, 13:00-13:15",
+   "surowe": "06:10-18:30\nUwaga,\n01.11.2026 r. czynne 06:10-17:40 przerwy: 09:35-09:50, 13:00-13:15",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:jelenia-gora",
@@ -7516,7 +7517,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": false,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:katowice",
@@ -7561,7 +7562,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:katowice-centrum-obslugi-klienta",
@@ -7600,7 +7601,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:kielce",
@@ -7641,7 +7642,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:kolobrzeg",
@@ -7678,15 +7679,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "od 01.11.2026 r. czynne 05:15-21:30 przerwa: 19:30-19:45"
+   ],
    "pewne": true,
-   "surowe": "05:15-22:00\nprzerwa: 19:30-19:45",
+   "surowe": "05:15-22:00\nprzerwa: 19:30-19:45\nUwaga,\nod 01.11.2026 r. czynne 05:15-21:30 przerwa: 19:30-19:45",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:konin",
@@ -7734,7 +7737,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:krakow-glowny",
@@ -7773,7 +7776,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:krakow-glowny-centrum-obslugi-klienta",
@@ -7814,7 +7817,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:krakow-plaszow",
@@ -7862,7 +7865,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:kutno",
@@ -7909,7 +7912,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lancut",
@@ -7940,15 +7943,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "01.11.2026 r. nieczynne"
+   ],
    "pewne": true,
-   "surowe": "05:00-20:00",
+   "surowe": "05:00-20:00\nUwaga,\n01.11.2026 r. nieczynne",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lebork",
@@ -7993,7 +7998,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:legnica",
@@ -8047,7 +8052,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:leszno",
@@ -8095,7 +8100,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lodz-fabryczna",
@@ -8134,7 +8139,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lodz-widzew",
@@ -8165,15 +8170,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "od 01.11.2026 r. czynne 05:40-20:00"
+   ],
    "pewne": true,
-   "surowe": "05:10-20:40",
+   "surowe": "05:10-20:40\nUwaga,\nod 01.11.2026 r. czynne 05:40-20:00",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lowicz",
@@ -8224,7 +8231,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:lublin-glowny",
@@ -8263,7 +8270,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:malbork",
@@ -8304,7 +8311,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:olsztyn",
@@ -8343,7 +8350,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:opole-glowne",
@@ -8382,7 +8389,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:piotrkow-trybunalski",
@@ -8436,7 +8443,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:poznan-glowny",
@@ -8475,7 +8482,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:poznan-glowny-dworzec-zachodni",
@@ -8507,7 +8514,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:przemysl",
@@ -8558,7 +8565,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:pulawy-miasto",
@@ -8603,7 +8610,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:radom",
@@ -8644,16 +8651,16 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "30.09.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15"
+    "31.10.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15"
    ],
    "pewne": true,
-   "surowe": "pn-sb 07:30-19:00\nnd 09:10-18:40\nprzerwy codziennie: 11:15-11:30, 16:00-16:15\nUwaga,\n30.09.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15",
+   "surowe": "pn-sb 07:30-19:00\nnd 09:10-18:40\nprzerwy codziennie: 11:15-11:30, 16:00-16:15\nUwaga,\n31.10.2026 r. czynne 07:30-18:00 przerwy: 11:15-11:30, 16:00-16:15",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:rybnik",
@@ -8693,15 +8700,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "30.10.2026 r. czynne 09:10-18:40 przerwy: 11:00-11:15, 14:30-14:45"
+   ],
    "pewne": true,
-   "surowe": "07:10-18:40\nprzerwy: 11:00-11:15, 14:30-14:45",
+   "surowe": "07:10-18:40\nprzerwy: 11:00-11:15, 14:30-14:45\nUwaga,\n30.10.2026 r. czynne 09:10-18:40 przerwy: 11:00-11:15, 14:30-14:45",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:rzeszow",
@@ -8746,7 +8755,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:skarzysko-kamienna",
@@ -8785,7 +8794,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:skierniewice",
@@ -8824,7 +8833,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:sopot",
@@ -8872,7 +8881,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:sosnowiec",
@@ -8920,7 +8929,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:swiebodzin",
@@ -8957,7 +8966,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:szczecin-glowny",
@@ -8996,7 +9005,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:szklarska-poreba-gorna",
@@ -9044,7 +9053,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": false,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tarnow",
@@ -9083,7 +9092,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tczew",
@@ -9122,7 +9131,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:terespol",
@@ -9169,7 +9178,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:torun-glowny",
@@ -9208,7 +9217,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tychy",
@@ -9254,7 +9263,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tymczasowy-kontener-szczecin-dabie",
@@ -9302,7 +9311,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tymczasowy-w-przejsciu-podziemnym",
@@ -9350,7 +9359,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:tymczasowy-znajduje-sie-w-sasiadujacym-z-obecnym-dworcem-biurowcu-wejscie-od-strony-ul-m-konopnickiej",
@@ -9398,7 +9407,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:ustka",
@@ -9445,7 +9454,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:walbrzych-miasto",
@@ -9496,7 +9505,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": false,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-centralna",
@@ -9535,7 +9544,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-centralna-centrum-obslugi-klienta",
@@ -9574,7 +9583,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-wschodnia",
@@ -9619,7 +9628,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-zachodnia",
@@ -9664,7 +9673,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-zachodnia-2",
@@ -9704,16 +9713,16 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "14-15.10.2026 r. czynne 09:00-19:50"
+    "30.10.2026 r. czynne 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00"
    ],
    "pewne": true,
-   "surowe": "pn-pt 09:00-20:00 przerwa: 11:30-11:45\nsb-nd 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00\nUwaga,\n14-15.10.2026 r. czynne 09:00-19:50",
+   "surowe": "pn-pt 09:00-20:00 przerwa: 11:30-11:45\nsb-nd 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00\nUwaga,\n30.10.2026 r. czynne 09:00-19:50 przerwy: 11:30-11:45, 15:45-16:00",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:warszawa-zachodnia-centrum-obslugi-klienta",
@@ -9735,17 +9744,16 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "przy Dworcu Warszawa Zachodnia",
-    "30.09.2026 r. czynne 09:00-15:30"
+    "przy Dworcu Warszawa Zachodnia"
    ],
    "pewne": true,
-   "surowe": "pn-pt 09:00-16:30\nsb,nd i święta nieczynne\nUwaga,\n30.09.2026 r. czynne 09:00-15:30",
+   "surowe": "pn-pt 09:00-16:30\nsb,nd i święta nieczynne",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:why-not-travel",
@@ -9774,7 +9782,7 @@
    "operator": "Biuro podróży",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:wloclawek",
@@ -9816,7 +9824,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:wloszczowa-polnoc",
@@ -9864,7 +9872,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:wolow",
@@ -9910,7 +9918,7 @@
    "operator": "kasa agencyjna",
    "sprzedaz_miedzynarodowa": false,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:wroclaw-glowny",
@@ -9949,7 +9957,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:wroclaw-glowny-centrum-obslugi-klienta",
@@ -9988,7 +9996,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:zabrze",
@@ -10036,7 +10044,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:zakopane",
@@ -10076,15 +10084,17 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "od 01.11.2026 r. czynne 08:10-20:10 przerwa: 11:30-11:45"
+   ],
    "pewne": true,
-   "surowe": "08:10-19:40\nprzerwy: 11:30-11:45, 16:00-16:15",
+   "surowe": "08:10-19:40\nprzerwy: 11:30-11:45, 16:00-16:15\nUwaga,\nod 01.11.2026 r. czynne 08:10-20:10 przerwa: 11:30-11:45",
    "zrodlo": "https://www.intercity.pl/pl/site/dla-pasazera/kup-bilet/wyszukiwarka-kas-i-biletomatow.html",
    "tryb": "przegladarka",
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:zawiercie",
@@ -10132,7 +10142,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:zebrzydowice",
@@ -10165,7 +10175,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "pkp_intercity:zielona-gora",
@@ -10216,7 +10226,7 @@
    "operator": "PKP Intercity",
    "sprzedaz_miedzynarodowa": true,
    "platnosc_karta": true,
-   "pobrano": "2026-10-24T19:48:16+00:00"
+   "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
    "id": "polregio:aleksandrow-kujawski",
