@@ -1,53 +1,53 @@
 {
  "schemat": 1,
- "wersja": "a69a137ffb582699",
- "wygenerowano": "2026-10-31T20:49:26+00:00",
- "liczba": 428,
+ "wersja": "70d8b6a95b1a7524",
+ "wygenerowano": "2026-11-01T01:13:55+00:00",
+ "liczba": 429,
  "zrodla": {
   "polregio": {
    "ok": true,
    "liczba": 106,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
-   "liczba": 139,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "liczba": 140,
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-10-25T00:21:16+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   },
   "pkp_intercity": {
    "ok": true,
    "liczba": 83,
-   "pobrano": "2026-10-31T20:49:26+00:00"
+   "pobrano": "2026-11-01T01:13:55+00:00"
   }
  },
  "swieta": [
@@ -1794,20 +1794,12 @@
       "14:30-14:50"
      ]
     },
-    "nd_sw": {
-     "godziny": [
-      "09:00-17:00"
-     ],
-     "przerwy": [
-      "09:15-09:25",
-      "14:30-14:50"
-     ]
-    }
+    "nd_sw": "nieczynna"
    },
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "pon-pt 07:00 - 18:00\nsob 08:00 - 18:00\nniedz i św. 09:00 - 17:00\nPrzerwy\n09:15 - 09:25\n14:30 - 14:50",
+   "surowe": "pon-pt 07:00 - 18:00\nsob 08:00 - 18:00\nniedz i św. Nieczynna\nPrzerwy\n09:15 - 09:25\n14:30 - 14:50",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/legionowo",
    "tryb": "auto"
   },
@@ -1873,6 +1865,38 @@
    "pewne": true,
    "surowe": "pon-pt 05:40 - 16:10\nsob 05:40 - 15:10\nniedz i św. 05:40 - 15:10\nPrzerwy\n09:20 - 09:40\n14:10 - 14:30",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/lochow",
+   "tryb": "auto"
+  },
+  {
+   "id": "koleje_mazowieckie:lotnisko-modlin",
+   "przewoznik_id": "koleje_mazowieckie",
+   "przewoznik": "KOLEJE MAZOWIECKIE",
+   "typ": "kasa",
+   "nazwa": "Lotnisko Modlin",
+   "miejscowosc": "Lotnisko Modlin",
+   "adres": "05-102 Nowy Dwór Mazowiecki, Generała Wiktora Thommée",
+   "dni": {
+    "pn_pt": {
+     "godziny": [
+      "09:00-21:00"
+     ],
+     "przerwy": []
+    },
+    "sob": {
+     "godziny": [
+      "09:00-21:00"
+     ],
+     "przerwy": []
+    },
+    "nd_sw": "nieczynna"
+   },
+   "wyjatki": [],
+   "uwagi": [
+    "Nieczynna\n* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\""
+   ],
+   "pewne": true,
+   "surowe": "pon-pt 09:00 - 21:00\nsob 09:00 - 21:00\nniedz i św. Nieczynna\n* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\"",
+   "zrodlo": "https://www.mazowieckie.com.pl/pl/lotnisko-modlin",
    "tryb": "auto"
   },
   {
@@ -4489,9 +4513,11 @@
     "nd_sw": null
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "Czynne 7 dniu w tygodniu"
+   ],
    "pewne": false,
-   "surowe": "05:30 - 21:00\nPrzerwy: 09:00 - 09:15\n13:00 - 13:30\n17:45 - 18:00",
+   "surowe": "Czynne 7 dniu w tygodniu\n05:30 - 21:00\nPrzerwy: 09:00 - 09:15\n13:00 - 13:30\n17:45 - 18:00",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -4525,10 +4551,10 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego"
+    "Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego\nUwaga! Od 01.11.2026 czynne 7 dni w tygodniu\n05:30 - 21:00"
    ],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n05:30 - 20:40\nUwaga! Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego",
+   "surowe": "Czynne 7 dni w tygodniu\n05:30 - 20:40\nUwaga! Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego\nUwaga! Od 01.11.2026 czynne 7 dni w tygodniu\n05:30 - 21:00",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -4932,8 +4958,8 @@
       "06:30-18:00"
      ],
      "przerwy": [
-      "10:10-10:25",
-      "13:15-13:30"
+      "09:25-09:40",
+      "13:00-13:15"
      ]
     },
     "sob": {
@@ -4941,8 +4967,8 @@
       "06:30-18:00"
      ],
      "przerwy": [
-      "10:10-10:25",
-      "13:15-13:30"
+      "09:25-09:40",
+      "13:00-13:15"
      ]
     },
     "nd_sw": {
@@ -4950,15 +4976,15 @@
       "06:30-18:00"
      ],
      "przerwy": [
-      "10:10-10:25",
-      "13:15-13:30"
+      "09:25-09:40",
+      "13:00-13:15"
      ]
     }
    },
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n06:30 - 18:00\nPrzerwy: 10:10 - 10:25\n13:15 - 13:30",
+   "surowe": "Czynne 7 dni w tygodniu\n06:30 - 18:00\nPrzerwy: 09:25 - 09:40\n13:00 - 13:15",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -5013,38 +5039,39 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "06:00-17:30"
+      "05:15-20:35"
      ],
      "przerwy": [
-      "08:35-08:50",
-      "12:45-13:00"
+      "08:45-09:00",
+      "12:45-13:05",
+      "16:50-17:05"
      ]
     },
     "sob": {
      "godziny": [
-      "06:00-17:30"
+      "05:15-20:35"
      ],
      "przerwy": [
-      "08:35-08:50",
-      "12:45-13:00"
+      "08:45-09:00",
+      "12:45-13:05",
+      "16:50-17:05"
      ]
     },
     "nd_sw": {
      "godziny": [
-      "06:00-17:30"
+      "05:15-20:35"
      ],
      "przerwy": [
-      "08:35-08:50",
-      "12:45-13:00"
+      "08:45-09:00",
+      "12:45-13:05",
+      "16:50-17:05"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Od dnia 22 października\n08:45 - 09:00"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n06:00 - 17:30\nPrzerwy: 08:35 - 08:50\n12:45 - 13:00\nUwaga ! Od dnia 22 października\n08:45 - 09:00",
+   "surowe": "Czynne 7 dni w tygodniu\n05:15 - 20:35\nPrzerwy: 08:45 - 09:00\n12:45 - 13:05\n16:50 - 17:05",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -5245,14 +5272,41 @@
    "miejscowosc": "Rybnik",
    "adres": null,
    "dni": {
-    "pn_pt": null,
-    "sob": null,
-    "nd_sw": null
+    "pn_pt": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "13:00-13:30",
+      "16:45-17:00"
+     ]
+    },
+    "sob": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "13:00-13:30",
+      "16:45-17:00"
+     ]
+    },
+    "nd_sw": {
+     "godziny": [
+      "05:30-21:00"
+     ],
+     "przerwy": [
+      "09:00-09:15",
+      "13:00-13:30",
+      "16:45-17:00"
+     ]
+    }
    },
    "wyjatki": [],
    "uwagi": [],
-   "pewne": false,
-   "surowe": "05:30 - 21:00\nPrzerwy: 09:00 - 09:15\n13:00 - 13:30\n16:45 - 17:00",
+   "pewne": true,
+   "surowe": "Czynne 7 dni w tygodniu\n05:30 - 21:00\nPrzerwy: 09:00 - 09:15\n13:00 - 13:30\n16:45 - 17:00",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -5563,30 +5617,39 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "06:00-17:30"
+      "06:00-21:30"
      ],
-     "przerwy": []
+     "przerwy": [
+      "08:50-09:05",
+      "13:30-14:00",
+      "17:15-17:30"
+     ]
     },
     "sob": {
      "godziny": [
-      "06:00-17:30"
+      "06:00-21:30"
      ],
-     "przerwy": []
+     "przerwy": [
+      "08:50-09:05",
+      "13:30-14:00",
+      "17:15-17:30"
+     ]
     },
     "nd_sw": {
      "godziny": [
-      "06:00-17:30"
+      "06:00-21:30"
      ],
-     "przerwy": []
+     "przerwy": [
+      "08:50-09:05",
+      "13:30-14:00",
+      "17:15-17:30"
+     ]
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "Od dnia 24.10.2026\n06:00 - 21:30",
-    "Od dnia 24.10.2026\n08:50 - 09:05\n13:30 - 13:45\n17:15 - 17:30"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n06:00 - 17:30\nUwaga! Od dnia 24.10.2026\n06:00 - 21:30\nPrzerwy: Uwaga! Od dnia 24.10.2026\n08:50 - 09:05\n13:30 - 13:45\n17:15 - 17:30",
+   "surowe": "Czynne 7 dni w tygodniu\n06:00 - 21:30\nPrzerwy: 08:50 - 09:05\n13:30 - 14:00\n17:15 - 17:30",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -5948,11 +6011,10 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "Święta: nieczynne",
-    "22.10. w godzinach 10:00-14:00 nieczynne"
+    "Święta: nieczynne"
    ],
    "pewne": true,
-   "surowe": "Dni powszednie\n6:15-17:50\nprzerwa:\n11:35-12:05\nSoboty\n7:40-12:10\nNiedziele i święta\n7:40-12:10\nświęta nieczynne\nUwagi\n22.10. w godzinach 10:00-14:00 nieczynne",
+   "surowe": "Dni powszednie\n6:15-17:50\nprzerwa:\n11:35-12:05\nSoboty\n7:40-12:10\nNiedziele i święta\n7:40-12:10\nświęta nieczynne\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
    "tryb": "auto"
   },
@@ -6201,7 +6263,7 @@
      ],
      "przerwy": [
       "08:30-08:40",
-      "12:45-13:05"
+      "13:00-13:20"
      ]
     },
     "sob": {
@@ -6210,7 +6272,7 @@
      ],
      "przerwy": [
       "08:30-08:40",
-      "12:45-13:05"
+      "13:00-13:20"
      ]
     },
     "nd_sw": {
@@ -6219,7 +6281,7 @@
      ],
      "przerwy": [
       "08:30-08:40",
-      "12:45-13:05"
+      "13:00-13:20"
      ]
     }
    },
@@ -6228,7 +6290,7 @@
     "Święta: 06:20-13:50"
    ],
    "pewne": true,
-   "surowe": "Dni powszednie\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nSoboty\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nNiedziele i święta\n6:20-17:40\nprzerwy:\n8:30-8:40\n12:45-13:05\nświęta:\n6:20-13:50\nprzerwy:\n8:30-8:50\nUwagi\nbrak",
+   "surowe": "Dni powszednie\n6:20-17:40\nprzerwy:\n8:30-8:40\n13:00-13:20\nSoboty\n6:20-17:40\nprzerwy:\n8:30-8:40\n13:00-13:20\nNiedziele i święta\n6:20-17:40\nprzerwy:\n8:30-8:40\n13:00-13:20\nświęta:\n6:20-13:50\nprzerwy:\n8:30-8:50\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
    "tryb": "auto"
   },
@@ -6286,7 +6348,7 @@
     },
     "sob": {
      "godziny": [
-      "06:15-14:15"
+      "06:40-14:15"
      ],
      "przerwy": [
       "09:00-09:20"
@@ -6297,7 +6359,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Dni powszednie\n6:15-14:15\nprzerwa:\n9:00-9:20\nSoboty\n6:15-14:15\nprzerwa:\n9:00-9:20\nNiedziele i święta\nnieczynne\nUwagi\nbrak",
+   "surowe": "Dni powszednie\n6:15-14:15\nprzerwa:\n9:00-9:20\nSoboty\n6:40-14:15\nprzerwa:\n9:00-9:20\nNiedziele i święta\nnieczynne\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
    "tryb": "auto"
   },
@@ -6448,7 +6510,7 @@
       "05:30-17:15"
      ],
      "przerwy": [
-      "15:05-16:10"
+      "13:00-14:05"
      ]
     },
     "sob": {
@@ -6456,7 +6518,7 @@
       "05:30-17:15"
      ],
      "przerwy": [
-      "15:05-16:10"
+      "13:00-14:05"
      ]
     },
     "nd_sw": {
@@ -6471,7 +6533,7 @@
     "Święta: nieczynne"
    ],
    "pewne": true,
-   "surowe": "Dni powszednie\n5:30-17:15\nprzerwa:\n15:05-16:10\nSoboty\n5:30-17:15\nprzerwa:\n15:05-16:10\nNiedziele i święta\n7:30-14:10\nświęta nieczynne\nUwagi\nbrak",
+   "surowe": "Dni powszednie\n5:30-17:15\nprzerwa:\n13:00-14:05\nSoboty\n5:30-17:15\nprzerwa:\n13:00-14:05\nNiedziele i święta\n7:30-14:10\nświęta nieczynne\nUwagi\nbrak",
    "zrodlo": "https://koleje-wielkopolskie.com.pl/dla-pasazera/pociag/kasy-biletowe/",
    "tryb": "auto"
   },
@@ -6577,6 +6639,7 @@
    },
    "wyjatki": [],
    "uwagi": [
+    "„Łódzka Kolej Aglomeracyjna” sp. z o.o. informuje, że w dniach 19-20 listopada 2026 r. kasa agencyjna na dworcu w Pabianicach będzie czynna w godzinach 06:00-14:00.",
     "budynek dworca Pabianice (kasa agencyjna)",
     "(dwie pierwsze każdego miesiąca)"
    ],
@@ -10407,6 +10470,7 @@
       "06:10-17:40"
      ],
      "przerwy": [
+      "06:30-16:00",
       "09:00-09:15",
       "13:25-13:40"
      ]
@@ -10422,7 +10486,7 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:10-17:40"
+      "06:30-16:00"
      ],
      "przerwy": [
       "09:00-09:15",
@@ -10431,9 +10495,11 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    ",\nod dnia 01.11.2026r."
+   ],
    "pewne": true,
-   "surowe": "Pn-Pt: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nSob: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nNd i św.: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40",
+   "surowe": "Pn-Pt: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nod dnia 01.11.2026r.\n6:30-16:00\nprzerwa 9:00 - 9:15, 13:25-13:40\nSob: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nNd i św.: 6:30-16:00\nprzerwa 9:00 - 9:15, 13:25-13:40",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/brzeg/",
    "tryb": "auto"
   },
@@ -10575,15 +10641,18 @@
       "06:30-13:00"
      ],
      "przerwy": [
+      "06:30-10:00",
       "08:20-08:40",
       "11:35-12:20"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "W dniu 01.11.2026 kasa czynna"
+   ],
    "pewne": true,
-   "surowe": "Pn-Pt: 05:10- 17:10\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20\nSob: 06:30 - 13:00\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20\nNd i św.: 06:30 - 13:00\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20",
+   "surowe": "Pn-Pt: 05:10- 17:10\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20\nSob: 06:30 - 13:00\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20\nNd i św.: 06:30 - 13:00\nprzerwy:\n08:20 - 08:40\n11:35 - 12:20\nW dniu 01.11.2026 kasa czynna 06:30 - 10:00",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/chocicza/",
    "tryb": "auto"
   },
@@ -11334,7 +11403,8 @@
       "05:00-19:30"
      ],
      "przerwy": [
-      "08:25-08:45",
+      "05:00-20:30",
+      "08:30-08:45",
       "12:00-12:40",
       "15:40-15:55"
      ]
@@ -11344,7 +11414,8 @@
       "06:00-17:30"
      ],
      "przerwy": [
-      "08:25-08:45",
+      "06:00-18:30",
+      "08:30-08:45",
       "12:00-12:40",
       "15:40-15:55"
      ]
@@ -11354,16 +11425,21 @@
       "06:00-17:00"
      ],
      "przerwy": [
-      "08:25-08:45",
+      "06:00-18:00",
+      "08:30-08:45",
       "12:00-12:40",
       "15:40-15:55"
      ]
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "W dniach 02-10.11.2026 kasa czynna",
+    "W dniu 07.11.2026 kasa czynna",
+    "W dniu 01.11.2026 - kasa nieczynna, w dniach 08 i 11.11.2026 kasa czynna ."
+   ],
    "pewne": true,
-   "surowe": "Pn-Pt: 05:00 - 19:30\nprzerwy:\n08:25 - 08:45\n12:00 - 12:40\n15:40 - 15:55\nSob: 06:00 - 17:30\nprzerwy:\n08:25 - 08:45\n12:00 - 12:40\n15:40 - 15:55\nNd i św.: 06:00 - 17:00\nprzerwy:\n08:25 - 08:45\n12:00 - 12:40\n15:40 - 15:55",
+   "surowe": "Pn-Pt: 05:00 - 19:30\nprzerwy:\n08:30 - 08:45\n12:00 - 12:40\n15:40 - 15:55\nW dniach 02-10.11.2026 kasa czynna 05:00 - 20:30\nSob: 06:00 - 17:30\nprzerwy:\n08:30 - 08:45\n12:00 - 12:40\n15:40 - 15:55\nW dniu 07.11.2026 kasa czynna 06:00 - 18:30\nNd i św.: 06:00 - 17:00\nprzerwy:\n08:30 - 08:45\n12:00 - 12:40\n15:40 - 15:55\nW dniu 01.11.2026 - kasa nieczynna, w dniach 08 i 11.11.2026 kasa czynna 06:00 - 18:00.",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/koscian/",
    "tryb": "auto"
   },
@@ -11794,9 +11870,11 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "od 01.11.2026 r. kasa nieczynna"
+   ],
    "pewne": true,
-   "surowe": "Pn-Pt: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nSob: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nNd i św.: 10:00 - 18:00\nprzerwa:\n13:45 - 14:00",
+   "surowe": "Pn-Pt: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nUwaga:\nod 01.11.2026 r. kasa nieczynna\nSob: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nUwaga:\nod 01.11.2026 r. kasa nieczynna\nNd i św.: 10:00 - 18:00\nprzerwa:\n13:45 - 14:00\nUwaga:\nod 01.11.2026 r. kasa nieczynna",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/miedzyzdroje/",
    "tryb": "auto"
   },
@@ -12118,17 +12196,18 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "05:00-10:35",
-      "11:20-12:00",
-      "12:20-17:00"
+      "05:00-10:30",
+      "11:20-13:25",
+      "13:45-15:20",
+      "15:45-17:00"
      ],
      "przerwy": []
     },
     "sob": {
      "godziny": [
-      "06:00-10:35",
-      "11:20-12:00",
-      "12:20-16:00"
+      "06:00-10:30",
+      "11:20-13:25",
+      "13:45-16:00"
      ],
      "przerwy": []
     },
@@ -12144,7 +12223,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 05:00 - 10:35\n11:20 - 12:00\n12:20 - 17.00\nSob: 06:00 - 10:35\n11:20 - 12:00\n12:20 - 16:00\nNd i św.: 06:00 - 10:30\n11:20 - 13:25\n13:45 - 16:00",
+   "surowe": "Pn-Pt: 05:00 - 10:30\n11:20 - 13:25\n13:45 - 15:20\n15:45 - 17:00\nSob: 06:00 - 10:30\n11:20 - 13:25\n13:45 - 16:00\nNd i św.: 06:00 - 10:30\n11:20 - 13:25\n13:45 - 16:00",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/olesnica/",
    "tryb": "auto"
   },
@@ -12217,6 +12296,7 @@
       "06:45-18:15"
      ],
      "przerwy": [
+      "07:00-16:30",
       "09:00-09:15",
       "13:50-14:05"
      ]
@@ -12232,7 +12312,7 @@
     },
     "nd_sw": {
      "godziny": [
-      "06:45-18:15"
+      "07:00-16:30"
      ],
      "przerwy": [
       "09:00-09:15",
@@ -12243,7 +12323,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 6:45 - 18:15\nprzerwa 09:00 - 09:15 , 13:50 - 14:05\nSob: 6:45 - 18:15\nprzerwa 09:00 - 09:15 , 13:50 - 14:05\nNd i św.: 6:45 - 18:15\nprzerwa 09:00 - 09:15 , 13:50 - 14:05",
+   "surowe": "Pn-Pt: 6:45 - 18:15\nprzerwa 09:00 - 09:15 , 13:50 - 14:05\nod 01.11.2026r\n.\n7:00 - 16:30\nprzerwa 09:00 - 09:15;13:50 - 14:05\nSob: 6:45 - 18:15\nprzerwa 09:00 - 09:15;13:50 - 14:05\nNd i św.: 7:00 - 16:30\nprzerwa 09:00 - 09:15;13:50 - 14:05",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/opole-glowne/",
    "tryb": "auto"
   },
@@ -12909,43 +12989,29 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "06:00-16:20"
+      "05:35-16:10"
      ],
      "przerwy": [
-      "05:35-16:10",
-      "09:40-09:55",
       "10:05-10:20",
-      "11:00-11:30",
       "11:10-11:40"
      ]
     },
     "sob": {
      "godziny": [
-      "06:10-14:35"
+      "05:35-13:40"
      ],
      "przerwy": [
-      "05:35-13:40",
-      "09:40-09:55",
       "10:05-10:20"
      ]
     },
-    "nd_sw": {
-     "godziny": [
-      "06:10-14:35"
-     ],
-     "przerwy": [
-      "09:40-09:55"
-     ]
-    }
+    "nd_sw": null
    },
    "wyjatki": [],
    "uwagi": [
-    "i )\nod 25.10.2026 r. kasa czynna",
-    ")\nod 25.10.2026 r. kasa czynna",
-    ")\nod 25.10.2026 r. kasa czynna:\nndz i"
+    "Święta: 06:10-13:40"
    ],
-   "pewne": true,
-   "surowe": "Pn-Pt: pn-pt 6:00-16:20\n(przerwa 9:40-9:55 i 11:00-11:30)\nod 25.10.2026 r. kasa czynna:\npn-pt 5:35-16:10 (przerwa 10:05-10:20 oraz 11:10-11:40)\nSob: sob 6:10-14:35\n(przerwa 9:40-9:55)\nod 25.10.2026 r. kasa czynna:\nsob 5:35-13:40 (przerwa 10:05-10:20)\nNd i św.: ndz 6:10-14:35\n(przerwa 9:40-9:55)\nod 25.10.2026 r. kasa czynna:\nndz i święta 6:10-13:40 (przerwa 10:05-10:20)",
+   "pewne": false,
+   "surowe": "Pn-Pt: pn-pt 5:35-16:10\n(przerwa 10:05-10:20 oraz 11:10-11:40)\nSob: sob 5:35-13:40\n(przerwa 10:05-10:20)\nNd i św.: ndz i święta 6:10-13:40\n(przerwa 10:05-10:20)",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/solec-kujawski/",
    "tryb": "auto"
   },
@@ -13355,9 +13421,11 @@
     "nd_sw": "nieczynna"
    },
    "wyjatki": [],
-   "uwagi": [],
+   "uwagi": [
+    "kasa czynna"
+   ],
    "pewne": true,
-   "surowe": "Pn-Pt: 05:50 - 17:50\nprzerwa 10:30 - 10:45, 14:25 - 14:40\nSob: kasa nieczynna\nNd i św.: kasa nieczynna",
+   "surowe": "Pn-Pt: kasa czynna 05:50 - 17:50\nprzerwa 10:30 - 10:45, 14:25 - 14:40\nSob: kasa nieczynna\nNd i św.: kasa nieczynna",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/tczew/",
    "tryb": "auto"
   },
