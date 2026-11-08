@@ -1,53 +1,53 @@
 {
  "schemat": 1,
- "wersja": "70d8b6a95b1a7524",
- "wygenerowano": "2026-11-01T01:13:55+00:00",
- "liczba": 429,
+ "wersja": "3f6bad4822d0595a",
+ "wygenerowano": "2026-11-08T01:27:53+00:00",
+ "liczba": 426,
  "zrodla": {
   "polregio": {
    "ok": true,
-   "liczba": 106,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "liczba": 103,
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
    "liczba": 140,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   },
   "pkp_intercity": {
    "ok": true,
    "liczba": 83,
-   "pobrano": "2026-11-01T01:13:55+00:00"
+   "pobrano": "2026-11-08T01:27:53+00:00"
   }
  },
  "swieta": [
@@ -1794,12 +1794,20 @@
       "14:30-14:50"
      ]
     },
-    "nd_sw": "nieczynna"
+    "nd_sw": {
+     "godziny": [
+      "09:00-17:00"
+     ],
+     "przerwy": [
+      "09:15-09:25",
+      "14:30-14:50"
+     ]
+    }
    },
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "pon-pt 07:00 - 18:00\nsob 08:00 - 18:00\nniedz i św. Nieczynna\nPrzerwy\n09:15 - 09:25\n14:30 - 14:50",
+   "surowe": "pon-pt 07:00 - 18:00\nsob 08:00 - 18:00\nniedz i św. 09:00 - 17:00\nPrzerwy\n09:15 - 09:25\n14:30 - 14:50",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/legionowo",
    "tryb": "auto"
   },
@@ -1888,14 +1896,19 @@
      ],
      "przerwy": []
     },
-    "nd_sw": "nieczynna"
+    "nd_sw": {
+     "godziny": [
+      "09:00-21:00"
+     ],
+     "przerwy": []
+    }
    },
    "wyjatki": [],
    "uwagi": [
-    "Nieczynna\n* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\""
+    "* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\""
    ],
    "pewne": true,
-   "surowe": "pon-pt 09:00 - 21:00\nsob 09:00 - 21:00\nniedz i św. Nieczynna\n* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\"",
+   "surowe": "pon-pt 09:00 - 21:00\nsob 09:00 - 21:00\nniedz i św. 09:00 - 21:00\n* sprzedaż biletów wyłącznie z oferty \"Bilet Lotniskowy\"",
    "zrodlo": "https://www.mazowieckie.com.pl/pl/lotnisko-modlin",
    "tryb": "auto"
   },
@@ -4532,29 +4545,41 @@
    "dni": {
     "pn_pt": {
      "godziny": [
-      "05:30-20:40"
+      "05:30-21:00"
      ],
-     "przerwy": []
+     "przerwy": [
+      "09:30-09:45",
+      "13:00-13:30",
+      "17:15-17:30"
+     ]
     },
     "sob": {
      "godziny": [
-      "05:30-20:40"
+      "05:30-21:00"
      ],
-     "przerwy": []
+     "przerwy": [
+      "09:30-09:45",
+      "13:00-13:30",
+      "17:15-17:30"
+     ]
     },
     "nd_sw": {
      "godziny": [
-      "05:30-20:40"
+      "05:30-21:00"
      ],
-     "przerwy": []
+     "przerwy": [
+      "09:30-09:45",
+      "13:00-13:30",
+      "17:15-17:30"
+     ]
     }
    },
    "wyjatki": [],
    "uwagi": [
-    "Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego\nUwaga! Od 01.11.2026 czynne 7 dni w tygodniu\n05:30 - 21:00"
+    "Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego"
    ],
    "pewne": true,
-   "surowe": "Czynne 7 dni w tygodniu\n05:30 - 20:40\nUwaga! Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego\nUwaga! Od 01.11.2026 czynne 7 dni w tygodniu\n05:30 - 21:00",
+   "surowe": "Czynne 7 dni w tygodniu\n05:30 - 21:00\nUwaga! Kasy biletowe znajdują się w nowym budynku dworca - wejście od ul. Piłsudskiego\nPrzerwy: 09:30 - 09:45\n13:00 - 13:30\n17:15 - 17:30",
    "zrodlo": "https://www.kolejeslaskie.pl/kup_bilet/na-dworcu/",
    "tryb": "auto"
   },
@@ -6639,6 +6664,11 @@
    },
    "wyjatki": [],
    "uwagi": [
+    "Informujemy, że w związku z przebudową kasy biletowej w holu dworca PKP w Pabianicach, od",
+    "16 listopada do 22 grudnia 2026 r",
+    ". obsługa klientów będzie prowadzona w pomieszczeniu tymczasowym nr 13 na terenie dworca.",
+    "Jednocześnie informujemy,",
+    "że 14 listopada 2026 r. kasa będzie nieczynna z powodu przeniesienia do tymczasowej lokalizacji.",
     "„Łódzka Kolej Aglomeracyjna” sp. z o.o. informuje, że w dniach 19-20 listopada 2026 r. kasa agencyjna na dworcu w Pabianicach będzie czynna w godzinach 06:00-14:00.",
     "budynek dworca Pabianice (kasa agencyjna)",
     "(dwie pierwsze każdego miesiąca)"
@@ -10292,28 +10322,6 @@
    "pobrano": "2026-10-31T20:48:56+00:00"
   },
   {
-   "id": "polregio:aleksandrow-kujawski",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Aleksandrów Kujawski",
-   "miejscowosc": "Aleksandrów Kujawski",
-   "adres": "ul.Wojska Polskiego 2, 87-700 Aleksandrów Kujawski",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "od dnia 4 marca 2023 r. kasa nieczynna. Odprawa podróżnych w pociągach bez dodatkowej opłaty"
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: od dnia 4 marca 2023 r. kasa nieczynna. Odprawa podróżnych w pociągach bez dodatkowej opłaty\nSob: Nieczynne\nNd i św.: Nieczynne",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/aleksandrow-kujawski/",
-   "tryb": "auto"
-  },
-  {
    "id": "polregio:biala-podlaska",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
@@ -10501,50 +10509,6 @@
    "pewne": true,
    "surowe": "Pn-Pt: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nod dnia 01.11.2026r.\n6:30-16:00\nprzerwa 9:00 - 9:15, 13:25-13:40\nSob: 6:10-17:40\nprzerwa 9:00 - 9:15, 13:25-13:40\nNd i św.: 6:30-16:00\nprzerwa 9:00 - 9:15, 13:25-13:40",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/brzeg/",
-   "tryb": "auto"
-  },
-  {
-   "id": "polregio:bydgoszcz-glowna",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Bydgoszcz Główna",
-   "miejscowosc": "Bydgoszcz Główna",
-   "adres": null,
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "Bilety na przejazd pociągami POLREGIO S.A. zakupią Państwo w biletomatach i w kasach biletowych Arriva RP i PKP INTERCITY S.A."
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: Nieczynna\nSob: Nieczynna\nNd i św.: Nieczynna",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/bydgoszcz-glowna/",
-   "tryb": "auto"
-  },
-  {
-   "id": "polregio:bydgoszcz-lesna",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Bydgoszcz Leśna",
-   "miejscowosc": "Bydgoszcz Leśna",
-   "adres": "ul.Modrzewiowa 19, 85-635 Bydgoszcz",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "od dnia 1 marca 2023 r. kasa nieczynna. Odprawa podróżnych w pociągach bez dodatkowej opłaty."
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: od dnia 1 marca 2023 r. kasa nieczynna. Odprawa podróżnych w pociągach bez dodatkowej opłaty.\nSob: Nieczynne\nNd i św.: Nieczynne",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/bydgoszcz-lesna/",
    "tryb": "auto"
   },
   {
@@ -11100,11 +11064,10 @@
    },
    "wyjatki": [],
    "uwagi": [
-    "Kasa czynna w godzinach:",
-    "24.12.2024- kasa czynna do godz. 15:00\n25.12.2024- kasa czynna do godz. 15:00\n26.12.2024- kasa czynna do godz. 15:00\n31.12.2024- kasa czynna do godz. 15:00\n01.01.2025- kasa czynna w godz. 08:00-18:00"
+    "Kasa czynna w godzinach:"
    ],
    "pewne": true,
-   "surowe": "Pn-Pt: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13 :35\nSob: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13 :35\nNd i św.: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13 :35\nUwaga:\n24.12.2024- kasa czynna do godz. 15:00\n25.12.2024- kasa czynna do godz. 15:00\n26.12.2024- kasa czynna do godz. 15:00\n31.12.2024- kasa czynna do godz. 15:00\n01.01.2025- kasa czynna w godz. 08:00-18:00",
+   "surowe": "Pn-Pt: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13:35\nSob: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13:35\nNd i św.: Kasa czynna w godzinach:\n5:30 - 17:30\nPrzerwa 07:30-08:15\n13:10-13:35",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/ilawa-gl/",
    "tryb": "auto"
   },
@@ -11385,7 +11348,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 7:25- 14:55\nprzerwa 11:45 - 12:00\nSob: Nieczynna\nNd i św.: Nieczynna",
+   "surowe": "Pn-Pt: 7:25- 14:55\nprzerwa 11:45 - 12:00\nDnia 05.11.2026 kasa nieczynna.\nSob: Nieczynna\nNd i św.: Nieczynna",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/kluczbork/",
    "tryb": "auto"
   },
@@ -11525,11 +11488,9 @@
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "13.09.2026: kasa nieczynna"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25\nSob: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25\nNd i św.: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25\nUwaga:\n13.09.2026: kasa nieczynna",
+   "surowe": "Pn-Pt: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25\nSob: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25\nNd i św.: 8:10 - 15:40\nprzerwa:\n09:45 - 10:00\n13:10 - 13:25",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/koszalin/",
    "tryb": "auto"
   },
@@ -11839,42 +11800,19 @@
    "id": "polregio:miedzyzdroje",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
-   "typ": "kasa",
+   "typ": "nieczynna",
    "nazwa": "Międzyzdroje",
    "miejscowosc": "Międzyzdroje",
    "adres": "ul. Kolejowa 57, 72-500 Międzyzdroje",
    "dni": {
-    "pn_pt": {
-     "godziny": [
-      "08:30-17:00"
-     ],
-     "przerwy": [
-      "10:50-11:05"
-     ]
-    },
-    "sob": {
-     "godziny": [
-      "08:30-17:00"
-     ],
-     "przerwy": [
-      "10:50-11:05"
-     ]
-    },
-    "nd_sw": {
-     "godziny": [
-      "10:00-18:00"
-     ],
-     "przerwy": [
-      "13:45-14:00"
-     ]
-    }
+    "pn_pt": "nieczynna",
+    "sob": "nieczynna",
+    "nd_sw": "nieczynna"
    },
    "wyjatki": [],
-   "uwagi": [
-    "od 01.11.2026 r. kasa nieczynna"
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nUwaga:\nod 01.11.2026 r. kasa nieczynna\nSob: 8:30 - 17:00\nprzerwa:\n10:50 - 11:05\nUwaga:\nod 01.11.2026 r. kasa nieczynna\nNd i św.: 10:00 - 18:00\nprzerwa:\n13:45 - 14:00\nUwaga:\nod 01.11.2026 r. kasa nieczynna",
+   "surowe": "Pn-Pt: od 01.11.2026 r. kasa nieczynna\nSob: od 01.11.2026 r. kasa nieczynna\nNd i św.: od 01.11.2026 r. kasa nieczynna",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/miedzyzdroje/",
    "tryb": "auto"
   },
@@ -12979,6 +12917,26 @@
    "tryb": "auto"
   },
   {
+   "id": "polregio:smetowo",
+   "przewoznik_id": "polregio",
+   "przewoznik": "POLREGIO",
+   "typ": "nieczynna",
+   "nazwa": "Smętowo",
+   "miejscowosc": "Smętowo",
+   "adres": "ul. Dworcowa 13, 83-230 Smętowo",
+   "dni": {
+    "pn_pt": "nieczynna",
+    "sob": "nieczynna",
+    "nd_sw": "nieczynna"
+   },
+   "wyjatki": [],
+   "uwagi": [],
+   "pewne": true,
+   "surowe": "Pn-Pt: nieczynne\nSob: nieczynne\nNd i św.: nieczynne",
+   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/smetowo/",
+   "tryb": "auto"
+  },
+  {
    "id": "polregio:solec-kujawski",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
@@ -13515,26 +13473,6 @@
    "pewne": true,
    "surowe": "Pn-Pt: pn-pt 5:50-18:05\nprzerwa 7:50-8:05, 11:45-12:00, 14:45-15:00\nSob: 6:35-13:50\nprzerwa: 7:50-8:05\nNd i św.: 6:35-13:50\nprzerwa: 7:50-8:05",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/torun-wschodni/",
-   "tryb": "auto"
-  },
-  {
-   "id": "polregio:wabrzezno",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Wąbrzeźno",
-   "miejscowosc": "Wąbrzeźno",
-   "adres": "ul. Kętrzyńskiego 122, 87-200 Wąbrzeźno",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [],
-   "pewne": true,
-   "surowe": "Pn-Pt: zamknięta\nSob: zamknięta\nNd i św.: zamknięta",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/wabrzezno/",
    "tryb": "auto"
   },
   {
