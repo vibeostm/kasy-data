@@ -1,53 +1,53 @@
 {
  "schemat": 1,
- "wersja": "3f6bad4822d0595a",
- "wygenerowano": "2026-11-08T01:27:53+00:00",
- "liczba": 426,
+ "wersja": "4742ca207477b14b",
+ "wygenerowano": "2026-11-15T01:57:03+00:00",
+ "liczba": 423,
  "zrodla": {
   "polregio": {
    "ok": true,
-   "liczba": 103,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "liczba": 100,
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "koleje_mazowieckie": {
    "ok": true,
    "liczba": 140,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "koleje_wielkopolskie": {
    "ok": true,
    "liczba": 19,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "koleje_slaskie": {
    "ok": true,
    "liczba": 50,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "koleje_dolnoslaskie": {
    "ok": true,
    "liczba": 11,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "lka": {
    "ok": true,
    "liczba": 3,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "koleje_malopolskie": {
    "ok": true,
    "liczba": 5,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "skm": {
    "ok": true,
    "liczba": 12,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   },
   "pkp_intercity": {
    "ok": true,
    "liczba": 83,
-   "pobrano": "2026-11-08T01:27:53+00:00"
+   "pobrano": "2026-11-15T01:57:03+00:00"
   }
  },
  "swieta": [
@@ -10796,28 +10796,6 @@
    "tryb": "auto"
   },
   {
-   "id": "polregio:gogolin",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Gogolin",
-   "miejscowosc": "Gogolin",
-   "adres": "Pl. Dworcowy 2, 47-320 Gogolin",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "KASA NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty"
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: KASA NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty\nSob: NIECZYNNA\nNd i św.: NIECZYNNA",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/gogolin/",
-   "tryb": "auto"
-  },
-  {
    "id": "polregio:goleniow",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
@@ -11348,7 +11326,7 @@
    "wyjatki": [],
    "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: 7:25- 14:55\nprzerwa 11:45 - 12:00\nDnia 05.11.2026 kasa nieczynna.\nSob: Nieczynna\nNd i św.: Nieczynna",
+   "surowe": "Pn-Pt: 7:25- 14:55\nprzerwa 11:45 - 12:00\nSob: Nieczynna\nNd i św.: Nieczynna",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/kluczbork/",
    "tryb": "auto"
   },
@@ -11669,29 +11647,6 @@
    "tryb": "auto"
   },
   {
-   "id": "polregio:lewin-brzeski",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Lewin Brzeski",
-   "miejscowosc": "Lewin Brzeski",
-   "adres": "ul.Kościuszki 73, 49-340 Lewin Brzeski",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "KASA NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty",
-    "NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty"
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: KASA NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty\nSob: NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty\nNd i św.: NIECZYNNA\nodprawa podróżnych w pociągu\nbez dodatkowej opłaty",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/lewin-brzeski/",
-   "tryb": "auto"
-  },
-  {
    "id": "polregio:lodz-fabryczna",
    "przewoznik_id": "polregio",
    "przewoznik": "POLREGIO",
@@ -11917,28 +11872,6 @@
    "pewne": true,
    "surowe": "Pn-Pt: 06:20 - 17:45\nprzerwy:\n09:10 – 09:25\n11:05 – 11:45\n14:30 – 14:45\nSob: 06:20 - 16:30\nprzerwy:\n09:10 – 09:25\n13:05 – 13:20\nNd i św.: 06:20 - 16:35\nprzerwy:\n09:10 – 09:25\n13:05 – 13:20",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/mosina/",
-   "tryb": "auto"
-  },
-  {
-   "id": "polregio:namyslow",
-   "przewoznik_id": "polregio",
-   "przewoznik": "POLREGIO",
-   "typ": "nieczynna",
-   "nazwa": "Namysłów",
-   "miejscowosc": "Namysłów",
-   "adres": "ul. Dworcowa 7, 46-100 Namysłów",
-   "dni": {
-    "pn_pt": "nieczynna",
-    "sob": "nieczynna",
-    "nd_sw": "nieczynna"
-   },
-   "wyjatki": [],
-   "uwagi": [
-    "Od 29.06.2026r. KASA NIECZYNNA\nOdprawa podróżnych w pociągach bez dodatkowej opłaty oraz w automacie biletowym"
-   ],
-   "pewne": true,
-   "surowe": "Pn-Pt: Od 29.06.2026r. KASA NIECZYNNA\nOdprawa podróżnych w pociągach bez dodatkowej opłaty oraz w automacie biletowym\nSob:\nNd i św.:",
-   "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/namyslow/",
    "tryb": "auto"
   },
   {
@@ -12873,19 +12806,15 @@
     "sob": "nieczynna",
     "nd_sw": {
      "godziny": [
-      "05:40-14:15",
-      "09:10-17:20",
       "13:15-17:20"
      ],
      "przerwy": []
     }
    },
    "wyjatki": [],
-   "uwagi": [
-    "w dniach 1-2 maja 2026 r. kasa nieczynna\nw dniu 3 maja 2026 r. kasa czynna w godz.\nw dniach 4 i 6 czerwca 2026 r. kasa nieczynna\nw dniu 5 czerwca 2026 r. kasa czynna w godz.\nw dniu 7 czerwca 2026 r. kasa czynna w godz."
-   ],
+   "uwagi": [],
    "pewne": true,
-   "surowe": "Pn-Pt: poniedziałek - piątek:\n5:40 - 14:15\nSob: soboty: nieczynne\nNd i św.: niedziele i święta:\n13:15 - 17:20\nw dniach 1-2 maja 2026 r. kasa nieczynna\nw dniu 3 maja 2026 r. kasa czynna w godz. 9:10 - 17:20\nw dniach 4 i 6 czerwca 2026 r. kasa nieczynna\nw dniu 5 czerwca 2026 r. kasa czynna w godz. 5:40 - 14:15\nw dniu 7 czerwca 2026 r. kasa czynna w godz. 9:10 - 17:20",
+   "surowe": "Pn-Pt: poniedziałek - piątek:\n5:40 - 14:15\nSob: soboty: nieczynne\nNd i św.: niedziele i święta:\n13:15 - 17:20",
    "zrodlo": "https://polregio.pl/pl/dla-podroznych/gdzie-kupic-bilet/kasy-biletowe/sedziszow/",
    "tryb": "auto"
   },
